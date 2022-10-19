@@ -213,18 +213,70 @@ export default {
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Fiat</em>',
+      significado:
+        'Es dinero de curso legal cuyo valor no deriva del hecho de ser un bien físico o mercancía, sino por ser emitido por un gobierno.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Rig</em>',
+      significado:
+        'Sistema basado principalmente en tarjetas gráficas que trabajan para obtener el hash de un bloque y obtener así una recompensa.',
+    },
+    {
+      termino: '<em>Satoshi</em>',
+      significado:
+        'Es la unidad mínima de medida que se puede utilizar en el sistema <em>Bitcoin</em>.',
+    },
+    {
+      termino: '<em>Scam</em>',
+      significado:
+        'Hace referencia a los productos digitales falsos o que no tienen el respaldo propuesto.',
+    },
+    {
+      termino: '<em>Spot</em>',
+      significado:
+        'El mercado spot es aquel en el que el valor del activo financiero se paga al contado (precio spot) en el momento de la entrega',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Arroyo Guardeño, D. Díaz Vico, J. & Hernández Encinas, L. (2019). <em>Blockchain</em>. Editorial CSIC Consejo Superior de Investigaciones Científicas.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/111431',
+    },
+    {
+      referencia:
+        'García-Morales, E. (2018). Luces y sombras sobre el impacto del blockchain en la gestión de documentos. Anuario ThinkEPI, 12, 345-351.',
+      link: 'https://doi.org/10.3145/thinkepi.2018.58',
+    },
+
+    {
+      referencia:
+        'Herrera, J. (2021). Propuesta de un mecanismo de gestión de pagos públicos mediante cadena de bloques (<em>Blockchain</em>). Revista de derecho de la Hacienda Pública, ISSN-e 2215-3624, Nº. 17, 2021, págs. 22-39.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=8072557 ',
+    },
+    {
+      referencia:
+        'MINTIC. (2022) Guía de referencia de <em>Blockchain</em> para la adopción e implementación de proyectos en el estado colombiano.',
+      link:
+        'https://gobiernodigital.mintic.gov.co/692/articles-161810_Ley_2052_2020.pdf',
+    },
+    {
+      referencia:
+        'Mougayar, W. (2016). <em>The business blockchain: promise, practice, and application of the next Internet technology. John Wiley & Sons</em>.',
       link: '',
+    },
+    {
+      referencia:
+        'Tapscott, D., & Tapscott, A. (2017). La revolución <em>blockchain</em>. Descubre cómo esta nueva tecnología transformará la economía global. ediciones deusco. séptima edición.',
+      link:
+        'https://static0planetadelibroscommx.cdnstatics.com/libros_contenido_extra/35/34781_La_revolucion_blockchain.pdf ',
+    },
+    {
+      referencia:
+        'Tudela, L (2019) Arquitectura <em>blockchain</em> para la securización de dispositivos IOT mediante <em>smart contracts</em>. ',
+      link: 'http://castor.det.uvigo.es:8080/xmlui/handle/123456789/345',
     },
   ],
   creditos: {
@@ -238,9 +290,36 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable Equipo Desarrollo Curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Hernando José Peña Hidalgo',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Centro de la industria, la Empresa y los Servicios - Regional Norte de Santander ',
+      },
+      {
+        nombre: 'Gloria Alexandra Orejarena Barrios',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distro Capital ',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba ',
+        cargo: 'Asesora Metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Corrector de estilo ',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -257,8 +336,19 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -268,24 +358,8 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
