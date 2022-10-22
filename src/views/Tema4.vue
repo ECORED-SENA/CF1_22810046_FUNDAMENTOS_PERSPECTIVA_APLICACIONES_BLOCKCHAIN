@@ -42,7 +42,7 @@
               .row(numero="4" titulo="¿Cómo funcionan los NFT?")
                 .col-12
                   p En un NFT se les puede asignar una especie de certificado digital de autenticidad, una serie de metadatos que no se van a poder modificar. En estos metadatos se garantiza su autenticidad, se registra el valor de partida y todas las adquisiciones o transacciones que se hayan hecho y también a su autor.
-              .row(numero="5" titulo="Market")
+              .row(numero="5" titulo="<em>Market</em>")
                 .col-12
                   p Tienda digital para el intercambio de nft.
           .col-lg-5
@@ -91,7 +91,7 @@
               img(src='@/assets/curso/tema4/img7.png' style="width: 350px").m-auto
           .col-lg-8
             h4 Contratos inteligentes
-            p Esta adopción de los NFT no haría sido posible sin la participación de los contratos inteligentes, en los cuales se encuentran los detalles del contrato de tenencia de cada token, así como los alcances. El intercambio de nft se desarrolla a través de los market’s en los cuales se puede consultar los detalles y metainformación de cada artículo digital.
+            p Esta adopción de los NFT no haría sido posible sin la participación de los contratos inteligentes, en los cuales se encuentran los detalles del contrato de tenencia de cada token, así como los alcances. El intercambio de nft se desarrolla a través de los <em>market’s</em> en los cuales se puede consultar los detalles y metainformación de cada artículo digital.
 
 </template>
 
