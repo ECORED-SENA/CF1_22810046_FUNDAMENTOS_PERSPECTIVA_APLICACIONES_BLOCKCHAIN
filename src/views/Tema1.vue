@@ -26,14 +26,14 @@
                 p La criptografía, es un conjunto de técnicas para asegurar información haciendo uso del ocultamiento y securización de la información.
             .row(numero="2" titulo="Función <em>Hash</em>")
               .col-md-12.mb-4.mb-md-0
-                p.mb-3 Es una función que permite cifrar información, generando un texto con longitud definida y cuenta con 3 propiedades básicas. <br> <br> Propiedades básicas Función <em>Hash</em>         
+                p.mb-3 Es una función que permite cifrar información, generando un texto con longitud definida y cuenta con 3 propiedades básicas. <br> <br> Propiedades básicas función <em>hash</em>         
               .col-md-12
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
                 p De esta manera se garantiza la verificación de la integridad de la información y que esta no ha sido alterada.
             .row(numero="3" titulo="Criptografía asimétrica")
               .col-md-12.mb-4.mb-md-0
-                p También llamada criptografía de llave pública, facilita la comunicación entre 2 partes interesadas haciendo uso de las llaves privada que se mantiene en secreto y la llave pública que se comparte con los demás para que se pueda leer el mensaje.
+                p También llamada criptografía de llave pública, facilita la comunicación entre 2 partes interesadas haciendo uso de la llave privada que se mantiene en secreto y la llave pública que se comparte con los demás para que se pueda leer el mensaje.
             .row(numero="4" titulo="Firma digital")
               .col-md-12.mb-4.mb-md-0
                 p Es un mecanismo mediante el cual se procede a garantizar que la información no ha sido alterada, eso se logra con el uso de llave privada, con lo que se evita el repudio de la información al contar con la información original.
@@ -45,7 +45,7 @@
                 p Corresponde a un <em>Asset</em> representado en dinero digital, y este puede comercializarse a través de su propia red de <em>blockchain</em>.
             .row(numero="7" titulo="<em>Token</em>")
               .col-md-12.mb-4.mb-md-0
-                p Son una representación de una unidad de valor en dinero de alguna denominación, el cual está definido por la organización fundadora, por lo general operan sobre redes de privadas.     
+                p Son una representación de una unidad de valor en dinero de alguna denominación, el cual está definido por la organización fundadora, por lo general operan sobre redes  privadas.     
       .row.mb-5.justify-content-center.align-items-center
         .col-12.col-lg-7.mb-3.mb-lg-0(data-aos="fade-left")
           LineaTiempoD.color-acento-contenido.bg3
@@ -95,7 +95,7 @@
           .col-lg-1
           .col-12.col-lg-5.mb-3.mb-lg-0.d-flex.align-items-center
             div
-              p.mb-0 Esta información solo puede ser modificada por bloques de orden posterior; cada bloque de información guarda la metainformación del bloque inmediatamente anterior, tal como se representa en la siguiente figura; en caso de que la información contenida en un bloque anterior sea modificada el <em>hash</em> cambia automáticamente lo que conlleva a que el siguiente bloque ya no sería valido comprometiendo la información contenida.
+              p.mb-0 Esta información solo puede ser modificada por bloques de orden posterior; cada bloque de información guarda la metainformación del bloque inmediatamente anterior, tal como se representa en la siguiente figura; en caso de que la información contenida en un bloque anterior sea modificada el <em>hash</em> cambia automáticamente lo que conlleva a que el siguiente bloque ya no sería válido comprometiendo la información contenida.
         .row.p-5.bgr_5.justify-content-center
           .col-12.col-md-8.col-lg-4
             figure
@@ -103,7 +103,7 @@
           .col-1
           .col-12.col-lg-7.mb-3.mb-lg-0.d-flex.align-items-center
             div
-              p.mb-0  Ahora bien, el <em>hash</em> por sí solo no sería suficiente para garantizar la información contenida ya que las maquinas actuales pueden calcular <em>hash</em> de manera rápida y regenerar la cadena completa para que esta sea válida, por esto el <em>blockchain</em> incorpora el protocolo Proof Of Work (prueba de trabajo) el cual evita que se generen y recalculen los <em>hashes</em> de manera inmediata.
+              p.mb-0  Ahora bien, el <em>hash</em> por sí solo no sería suficiente para garantizar la información contenida ya que las máquinas actuales pueden calcular <em>hash</em> de manera rápida y regenerar la cadena completa para que esta sea válida, por esto el <em>blockchain</em> incorpora el protocolo Proof Of Work (prueba de trabajo) el cual evita que se generen y recalculen los <em>hashes</em> de manera inmediata.
         .row.p-5.bgr_6.justify-content-center
           .col-12.col-md-8.col-lg-3
             figure
@@ -136,6 +136,9 @@
       .col-lg-auto
         figure
           img(src='@/assets/curso/tema1/img14.svg' style="width: 450px").m-auto
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right").mb-4
+      h5 Figura 1.
+      span Origen del <em>blockchain</em>      
     .row.justify-content-center
       .col-lg-10
       LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
@@ -155,18 +158,18 @@
         figure
           img(src='@/assets/curso/tema1/img20.svg' style="width: 450px").m-auto
       .col-lg
-        p.mb-4 Para realizar una transacción con bancos tradicionales, estos certifican que se cuenta con el dinero y se encargan de procesar los movimientos correspondientes; por esta razón se buscó también que la solución permitiera que el usuario fuese el que tuviera control sobre la transacción sin ser controlado ni limitado.
+        p.mb-4 La adopción del <em>blockchain</em> en diferentes sectores ha ido incrementando a medida que se implementan las diferentes redes, servicios y aplicaciones, y este se ha involucrado en sectores tan importantes como son el de salud, financiero, logística, gobierno entre otros, pero aún no se puede hablar de que esta tecnología se encuentra en un 100% operativa.
         .cajon.color-primario.p-4
-          p.mb-0 Es desde los años 90 donde empiezan a surgir propuestas descentralizadas para dar solución a estas necesidades, y se puede realizar una vista rápida en la siguiente figura 1 de los principales hechos que marcaron el origen del <em>blockchain</em> como se conoce hasta el momento.
+          p.mb-0 De acuerdo con Gartner, en su artículo denominado “Las 4 fases del espectro <em>blockchain</em> de Gartner”, la cadena de bloques real está conformada por 5 elementos como son: distribución, cifrado, inmutabilidad, <em>tokenización</em> y descentralización; las cuales permiten el aprovechamiento completo de esta tecnología como se puede apreciar en la siguiente figura 2.
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 1]. Modelos para el análisis de los datos
+          p.mb-0 #[b Figura 2]. Elementos que componen una red <em>blockchain</em>
       .row.justify-content-center.mb-5
         .col-lg-6
           figure
             img(src='@/assets/curso/tema1/img26.svg')
-          figcaption  Nota. Adaptado de Las 4 fases del espectro de <em>Blockchain</em> de Gartner.
+          figcaption  Nota. Adaptado de Las 4 fases del espectro de <em>Blockchain de Gartner</em>.
     .row.align-items-start.mb-5
       .col-auto
         figure
@@ -176,7 +179,7 @@
     .row.align-items-center.justify-content-center(data-aos="fade-right")
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 1]. Modelos para el análisis de los datos
+          p.mb-0 #[b Figura 3]. El espectro de <em>blockchain</em>
       .row.justify-content-center.mb-5
         .col-lg-10
           figure
@@ -205,13 +208,13 @@ export default {
       {
         titulo: '2013-2015',
         texto:
-          'Se presenta Ethereum. Ya para esta fecha, el mercado de los Bitcoins supera los mil millones de dólares. También se presentan los contratos inteligentes. Aunque la tecnología Blockchain es más antigua que Bitcoin, es un componente subyacente central de la mayoría de las redes de criptomonedas, que actúa como un libro mayor digital descentralizado, distribuido y público, que es responsable de mantener un registro permanente (cadena de bloques) de todas las transacciones previamente confirmadas.',
+          'Se presenta Ethereum. Ya para esta fecha, el mercado de los Bitcoins supera los mil millones de dólares. También se presentan los contratos inteligentes. Aunque la tecnología <em>Blockchain</em> es más antigua que Bitcoin, es un componente subyacente central de la mayoría de las redes de criptomonedas, que actúa como un libro mayor digital descentralizado, distribuido y público, que es responsable de mantener un registro permanente (cadena de bloques) de todas las transacciones previamente confirmadas.',
         icono: require('@/assets/curso/tema1/img18.png'),
       },
       {
         titulo: '2016-2018',
         texto:
-          'En este periodo, Linux Foundation presenta Hyperledger, para mejorar el desarrollo de Blockchain. <br><br>También sucede el primer gran fallo de ciberseguridad, con un ataque a Ethereum que le hizo perder un tercio de su criptomoneda Nativa (Ether). <br><br>A partir de estos años, naciones como Japón y Suiza comienzan a aceptar las criptomonedas.',
+          'En este periodo, Linux Foundation presenta Hyperledger, para mejorar el desarrollo de <em>Blockchain</em>. <br><br>También sucede el primer gran fallo de ciberseguridad, con un ataque a Ethereum que le hizo perder un tercio de su criptomoneda Nativa (Ether). <br><br>A partir de estos años, naciones como Japón y Suiza comienzan a aceptar las criptomonedas.',
         icono: require('@/assets/curso/tema1/img22.png'),
       },
       {
@@ -223,13 +226,13 @@ export default {
       {
         titulo: '2020',
         texto:
-          'Se publica una primera versión de los lineamientos de Blockchain para el Estado colombiano, denominada “Guía para el uso y la implementación de tecnología de registros distribuidos (DLT/Blockchain) en el sector público”, documento en el que se desarrollaron bases teóricas y se evidenciaron algunos ejemplos implementados en el sector público en países como Emiratos Árabes Unidos, Estonia, China, Unión Europea, Canadá y Estados Unidos, para su adopción e implementación en proyectos con tecnología Blockchain.',
+          'Se publica una primera versión de los lineamientos de <em>Blockchain</em> para el Estado colombiano, denominada “Guía para el uso y la implementación de tecnología de registros distribuidos (DLT/<em>Blockchain</em>) en el sector público”, documento en el que se desarrollaron bases teóricas y se evidenciaron algunos ejemplos implementados en el sector público en países como Emiratos Árabes Unidos, Estonia, China, Unión Europea, Canadá y Estados Unidos, para su adopción e implementación en proyectos con tecnología <em>Blockchain</em>.',
         icono: require('@/assets/curso/tema1/img23.png'),
       },
       {
         titulo: 'Actualidad',
         texto:
-          'La tecnología Blockchain continúa evolucionando, representada por un mayor número de criptomonedas, así como las empresas y gobiernos que aprovechan esta tecnología para mejorar su eficiencia y seguridad. <br><br> Aunque el futuro es incierto, es evidente que la cadena de bloques es una de las tecnologías más prometedoras de nuestro tiempo.',
+          'La tecnología <em>Blockchain</em> continúa evolucionando, representada por un mayor número de criptomonedas, así como las empresas y gobiernos que aprovechan esta tecnología para mejorar su eficiencia y seguridad. <br><br> Aunque el futuro es incierto, es evidente que la cadena de bloques es una de las tecnologías más prometedoras de nuestro tiempo.',
         icono: require('@/assets/curso/tema1/img24.png'),
       },
     ],

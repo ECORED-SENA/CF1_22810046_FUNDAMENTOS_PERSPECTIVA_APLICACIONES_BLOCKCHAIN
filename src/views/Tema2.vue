@@ -63,9 +63,9 @@
               img(src='@/assets/curso/tema2/img3.svg')
           .col
             p.mb-0 #[b El comportamiento de este tipo de monedas está ligado al volumen de capitalización, es decir que ante un mayor volumen de capitalización menor será su volatilidad o variación, en caso contrario con menos volumen se observará una mayor volatilidad.]
-        p.mb-4 Las criptomonedas buscan enlazar su precio a monedas fuertes como el dólar o monedas fiat, brindando así mayor confianza en los inversores, quienes las pueden utilizar para atesorar liquidez.
+        p.mb-4 Las criptomonedas buscan enlazar su precio a monedas fuertes como el dólar o monedas <em>fiat</em>, brindando así mayor confianza en los inversores, quienes las pueden utilizar para atesorar liquidez.
         .cajon.color-primario.p-4
-          p.mb-0 Entre las ventajas que han promovido el uso de StableCoin es su facilidad de transferir entre diferentes Exchanges, velocidad de la transferencia y un valor reducido de comisión.
+          p.mb-0 Entre las ventajas que han promovido el uso de <em>StableCoin</em> es su facilidad de transferir entre diferentes <em>Exchanges</em>, velocidad de la transferencia y un valor reducido de comisión.
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img7.svg' style="width: 450px").m-auto
@@ -105,7 +105,7 @@
               .bloque-texto-a__texto.p-4
                 p Se puede encontrar un extenso listado de este tipo de monedas en el sitio CoinMarketCap, cuyo enlace se encuentra en el material complementario. En este lugar se encuentran detalles importantes como el margen de capitalización, variación en los últimas 24 horas, la cantidad circulante de las monedas actualmente, entre otra información.
                   |
-                  a(href="https://coinmarketcap.com/" target="_blank") #[.txt-c1 La siguiente figura 4 presenta cómo se ve ese sitio.]
+                  a(href="https://coinmarketcap.com/" target="_blank") #[.txt-c1 La siguiente figura presenta cómo se ve ese sitio.]
         .row.justify-content-center.mb-5
           .col-lg-8
             .titulo-sexto.color-acento-contenido
@@ -221,10 +221,9 @@
       .col-lg-3
         figure
           img(src='@/assets/curso/tema2/img21.svg' style="width: 350px").m-auto
-    p.mb-5 Una de las principales diferencias que existe entre los #[i tokens] y las criptomonedas, radica en que las criptomonedas hacen uso de sus propias cadenas de bloques o redes, a diferencia de los #[i tokens] que hacen uso de otras cadenas de bloques para poder funcionar. La siguiente figura 5 presenta gráficamente esta diferencia.
+    p.mb-5 Una de las principales diferencias que existe entre los #[i tokens] y las criptomonedas, radica en que las criptomonedas hacen uso de sus propias cadenas de bloques o redes, a diferencia de los #[i tokens] que hacen uso de otras cadenas de bloques para poder funcionar. La siguiente figura presenta gráficamente esta diferencia.
     .row.justify-content-center.mb-5
       .col-lg-9
-        h4.text-center.mb-5 La siguiente tabla 1 muestra las principales diferencias entre las Altcoins y las StableCoins.
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 5]. Diferencias entre Criptomonedas y #[i Token]
         .tabla-a.color-acento-botones.mb-5 
@@ -381,6 +380,8 @@
           img(src='@/assets/curso/tema2/img34.svg' style="width: 350px").m-auto
       .col-lg-8
         .row.justify-content-center.mb-4
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Figura 6]. Usos del <em>Bitcoin</em>
           .col-10.col-md-5.col-lg.bg-c7.p-4.shadow-sm
             p.txt-c2.mb-0 01
             figure.mb-4
@@ -482,7 +483,7 @@
               .row(numero="1" titulo="<em>Open Source</em> (código abierto)")
                 .col-12
                   p Las DApps, cualquier cambio debe ser aprobado en consenso por la mayoría de los usuarios.
-              .row(numero="2" titulo="Consenso Descentralizado")
+              .row(numero="2" titulo="Consenso descentralizado")
                 .col-12
                   p Las transacciones se procesan a través de un mecanismo de consenso. Cuando la mayoría de los nodos aprueban la transacción, esta se procesa.
               .row(numero="3" titulo="Incentivado")
@@ -499,16 +500,16 @@
               img(src='@/assets/curso/tema2/img12.png' style="width: 550px").m-auto
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            p.mb-0 #[b.text-white Hyperledger]
+            p.mb-0 #[b.text-white #[i Hyperledger]]
         .row.align-items-center
           .col-lg-9.mb-4.mb-lg-0
-            p.mb-4 Hyperledger es una tecnología de <em>blockchain</em> de código abierto impulsado por Linux Foundation y su enfoque se centra en llevar el <em>blockchain</em> al mundo empresarial e industrial.
+            p.mb-4 <em>Hyperledger</em> es una tecnología de <em>blockchain</em> de código abierto impulsado por Linux <em>Foundation</em> y su enfoque se centra en llevar el <em>blockchain</em> al mundo empresarial e industrial.
             .row.align-items-start.mb-4
               .col-auto
                 figure
                   img(src='@/assets/curso/tema2/img3.svg')
               .col
-                p.mb-0 #[b El Ethereum está basado en el token Ether ($ETH) el cual puede ser utilizado en sus transacciones basados en esta tecnología. Como todas las criptomonedas, cuenta con un libro contable digital de transacciones abierto pero difícil de modificar, generado a partir de la minería.]
+                p.mb-0 #[b Este proyecto fue presentado por Linux <em>Foundation</em> en el año 2015 el cual tuvo un despliegue rápido ya que contó con el apoyo de organizaciones como Accenture, ANZ Bank, Cisco, CLS, <em>Credits</em>, Deutsche <em>Börse</em>, Digital <em></em>Asset Holdings, DTCC, Fujitsu <em>Limited</em>, IC3, IBM, Intel, JP Morgan, London Stock Exchange <em>Group</em>, Mitsubishi UFJ <em>Financial Group</em> (MUFG), R3, <em>State</em> Street, SWIFT, VMware y Wells Fargo entre otras.]
           .col-lg-3
             figure
               img(src='@/assets/curso/tema2/img47.svg' style="width: 200px").m-auto
@@ -550,7 +551,7 @@
     .row.justify-content-center
       .col-lg-9
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 2]. Hyperledger vs Ethereum: ¿Cuáles son las principales diferencias?
+          p.mb-0 #[b Tabla 2]. fHyperledger vs Ethereum: ¿Cuáles son las principales diferencias?
         .tabla-a.color-acento-botones.mb-5 
           table
             thead

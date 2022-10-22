@@ -74,11 +74,10 @@
                     img(src='@/assets/curso/tema3/img3.svg' style="width: 350px").m-auto
     h4.mb-5 La siguiente tabla 3 presenta las principales diferencias entre los tipos de redes <em>blockchain</em>:
     .row.justify-content-center
-      .col-lg-9
-        h4.text-center.mb-5 La siguiente tabla 1 muestra las principales diferencias entre las Altcoins y las StableCoins.
+      .col-lg-12
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 1]. Principales diferencias entre AltCoins y StableCoins
-        .tabla-a.color-acento-botones.mb-4
+          p.mb-0 #[b Tabla 3]. Principales diferencias entre los tipos de redes <em>blockchain</em>
+        .tabla-a.color-acento-contenido.mb-4
           table
             thead
               tr
@@ -95,7 +94,7 @@
                 th
                   p.text-center.text-white.mb-0 <em>Blockchain as a service</em>
                   p.text-center.text-white.mb-0 <em>IBM, Microsoft, Amazon</em>
-            tbody(style="background-color: #F6F6F6")
+            tbody
               tr
                 th Cualquiera puede participar.
                 th &check;
@@ -228,7 +227,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-5.mb-4.mb-lg-0
                 h4 Rastreo
-                p Gracias a redes de cadenas de bloques podemos tener el registro de cada movimiento de los productos desde su elaboración hasta que el usuario lo recibe en la puerta de su casa, gracias al registro de auditoria consignado en los registros de los bloques de la red.
+                p Gracias a redes de cadenas de bloques podemos tener el registro de cada movimiento de los productos desde su elaboración hasta que el usuario lo recibe en la puerta de su casa, gracias al registro de auditoría consignado en los registros de los bloques de la red.
               .col-lg-5
                 figure
                   img(src='@/assets/curso/tema3/img4.svg' style="width: 350px").m-auto
@@ -266,13 +265,13 @@
                   img(src='@/assets/curso/tema3/img8.svg' style="width: 350px").m-auto
         .dual-txt-deco2.mb-5
           p.mb-0 Dado el panorama anteriormente presentado, las ventajas de la adopción del <em>blockchain</em> en el comercio electrónico se hacen mas viables, y se presentan algunas soluciones que pueden ser útiles para su implementación, como son:
-        .row.justify-content-center
+        .row.justify-content-center.mb-5
           .col-lg-10
             PasosA.color-primario(tipo="n")
               .row
                 .col-lg-8.mb-4.mb-lg-0
-                  h4 Métodos Alternativos de Pago
-                  p Dada la masificación de criptomonedas y el establecimiento de los ecosistemas de interacción, el pago con este tipo de bienes de facilita al reducir intermediarios, y ofreciendo una gama amplia de monedas para realizar los pagos, hoy en día vemos gran cantidad de plataformas para pago como paypal que inicio sus pilotos para pago abierto con bitcoin.
+                  h4 Métodos alternativos de pago
+                  p Dada la masificación de criptomonedas y el establecimiento de los ecosistemas de interacción, el pago con este tipo de bienes de facilita al reducir intermediarios, y ofreciendo una gama amplia de monedas para realizar los pagos, hoy en día vemos gran cantidad de plataformas para pago como paypal que inició sus pilotos para pago abierto con bitcoin.
                 .col-lg-4
                   figure
                     img(src='@/assets/curso/tema3/img9.svg' style="width: 150px").m-auto
@@ -304,6 +303,7 @@
                 .col-lg-4
                   figure
                     img(src='@/assets/curso/tema3/img13.svg' style="width: 150px").m-auto
+    p.mb-5 Actualmente se encuentra una gran variedad de soluciones para la implementación del <em>blockchain</em> en soluciones de comercio electrónico, que permiten potenciar y facilitar la adopción de esta tecnología de una manera fácil y rápida aprovechando las ventajas de la Web3, además de algunas soluciones financieras, de desarrollo, gobernanza, seguridad, y autenticación, entre otros.
     Separador
     #t_3_3
     .titulo-segundo.color-acento-contenido
@@ -330,12 +330,12 @@
             .row.mb-4
               .col-auto.py-2.px-3.bg-c2
                 p.mb-0 #[b.text-white Compilación]
-            p.mb-5 El proceso de minado de un nuevo bloque inicia cuando un usuario desea enviar una cierta cantidad de criptomonedas a otra persona. Entonces, envía dicha transacción con los datos desde su wallet, a la espera de que la red la realice y confirme. Allí permanecen hasta que sea minado un bloque donde puedan incluirse y validarse.
+            p.mb-5 Estas transacciones pendientes en la red, son recopiladas y agrupadas en un bloque de transacciones por los nodos mineros. Es muy probable que varios mineros recojan las mismas transacciones y todas estarán sin confirmar hasta que no se mine el bloque.
             .row.mb-4
               .col-auto.py-2.px-3.bg-c2
                 p.mb-0 #[b.text-white Formación]
             p Cada minero seleccionará las transacciones que desea incluir y construirá su propio bloque. Si existen transacciones ya validadas e incluidas en el bloque anterior serán eliminadas de este. Este nuevo bloque se conoce como candidato, ya que aún no es válido porque no cuenta con una prueba de trabajo válida.
-        p.mb-5 En la formación de este nuevo bloque, se debe incluir un encabezado que contenga el hash del bloque anterior, la raíz de Merkle y los datos para la competencia minera. Es decir, la marca de tiempo, el objetivo del algoritmo de PoW para dicho bloque (los bits), la versión del software y el nonce.
+        p.mb-5 En la formación de este nuevo bloque, se debe incluir un encabezado que contenga el hash del bloque anterior, la raíz de Merkle y los datos para la competencia minera. Es decir, la marca de tiempo, el objetivo del algoritmo de PoW para dicho bloque (los <em>bits</em>), la versión del <em>software</em> y el <em>nonce</em>.
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
             p.mb-0 #[b.text-white Prueba de trabajo]
@@ -355,7 +355,7 @@
       .col-lg-9.order-1.order-lg-2
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            p.mb-0 #[b.text-white Prueba de trabajo]
+            p.mb-0 #[b.text-white Transmisión]
         p Cuando un nodo minero logra encontrar un hash de salida válido para un bloque, transmite dicho bloque junto con la firma a los demás nodos de la red para que estos puedan validarlo.
         p En este momento, siempre y cuando no hayan emitido los 21 millones de bitcoins, el minero recibe la recompensa establecida por el minado, poniendo bitcoins nuevos en circulación. Esto se registra en su propio nodo, el resto de nodos de la red lo hará en el siguiente paso.
         p Además, independientemente de que se hayan emitido todos los bitcoins o no, el minero también recibe todas las comisiones de minado que los usuarios hayan puesto en las transacciones que componen este bloque.

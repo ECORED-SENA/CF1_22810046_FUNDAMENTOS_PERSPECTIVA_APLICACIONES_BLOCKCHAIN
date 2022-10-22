@@ -290,30 +290,30 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable Equipo Desarrollo Curricular',
+        cargo: 'Responsable equipo desarrollo curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Hernando José Peña Hidalgo',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'María Inés Machado López',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro:
           'Centro de la industria, la Empresa y los Servicios - Regional Norte de Santander ',
       },
       {
         nombre: 'Gloria Alexandra Orejarena Barrios',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distro Capital ',
       },
       {
         nombre: 'Ana Catalina Córdoba ',
-        cargo: 'Asesora Metodológica',
+        cargo: 'Asesora metodológica',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
@@ -342,7 +342,7 @@ export default {
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
-        cargo: 'Validación Ilustración',
+        cargo: 'Validación ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -355,6 +355,12 @@ export default {
       {
         nombre: 'Sandra Milena Triana Pinto',
         cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
