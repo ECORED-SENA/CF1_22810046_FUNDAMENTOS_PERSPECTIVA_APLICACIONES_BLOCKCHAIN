@@ -509,7 +509,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img3.svg')
               .col
-                p.mb-0 #[b Este proyecto fue presentado por Linux <em>Foundation</em> en el año 2015 el cual tuvo un despliegue rápido ya que contó con el apoyo de organizaciones como Accenture, ANZ Bank, Cisco, CLS, <em>Credits</em>, Deutsche <em>Börse</em>, Digital <em></em>Asset Holdings, DTCC, Fujitsu <em>Limited</em>, IC3, IBM, Intel, JP Morgan, London Stock Exchange <em>Group</em>, Mitsubishi UFJ <em>Financial Group</em> (MUFG), R3, <em>State</em> Street, SWIFT, VMware y Wells Fargo entre otras.]
+                p.mb-0 <b>Este proyecto fue presentado por Linux <em>Foundation</em> en el año 2015 el cual tuvo un despliegue rápido ya que contó con el apoyo de organizaciones como Accenture, ANZ Bank, Cisco, CLS, <em>Credits</em>, Deutsche <em>Börse</em>, Digital <em></em>Asset Holdings, DTCC, Fujitsu <em>Limited</em>, IC3, IBM, Intel, JP Morgan, London Stock Exchange <em>Group</em>, Mitsubishi UFJ <em>Financial Group</em> (MUFG), R3, <em>State</em> Street, SWIFT, VMware y Wells Fargo entre otras.</b> 
           .col-lg-3
             figure
               img(src='@/assets/curso/tema2/img47.svg' style="width: 200px").m-auto
@@ -556,11 +556,11 @@
           table
             thead
               tr
-                th 101<em>BlockchainS</em>s
+                th 101#[i Blockchains]
                 th HYPERLEDGER VS ETHEREUM
             tbody(style="background-color: #F6F6F6")
               tr
-                td(colspan="2") #[b La <em>blockchain</em> empresarial está ganando terreno en las principales industrias. El impulso se ve subrayado por el potencial de la tecnología para revolucionar las operaciones y hacerlas asequibles, rápidas, confiables y transparentes. Con este fin, Hyperledger y Ethereum se están abriendo camino al establecer marcos donde los desarrolladores pueden personalizar la tecnología <em>blockchain</em> para varios casos de uso.]
+                td(colspan="2") #[b La #[i blockchain] empresarial está ganando terreno en las principales industrias. El impulso se ve subrayado por el potencial de la tecnología para revolucionar las operaciones y hacerlas asequibles, rápidas, confiables y transparentes. Con este fin, Hyperledger y Ethereum se están abriendo camino al establecer marcos donde los desarrolladores pueden personalizar la tecnología #[i blockchain] para varios casos de uso.]
           table.mb-4
             thead
               tr
@@ -568,8 +568,8 @@
                 th ETHEREUM
             tbody(style="background-color: #F6F6F6")
               tr
-                td #[b Al parecer, Hyperledger es bastante popular dentro del ecosistema de la <em>blockchain</em> empresarial. La comunidad cuenta con más de 260 socios de alto perfil que incluyen IBM, SAP y muchos más. Hyperledger es administrado por la fundación Linux que creó el ecosistema en diciembre de 2015. La plataforma es de código abierto y admite una arquitectura modular. Los nodos de validación y los modos de no validación. Los nodos de validación validan las transacciones, mantienen el registro y ejecutan el consenso que es el protocolo de consenso BFT.]
-                td #[b Este ecosistema es bastante genérico y sirve para una amplia gama de propósitos. Se basa en el consenso de PoW para validar las transacciones. Además, está claro que Ethereum es ideal para aplicaciones B2C, ya que los usuarios no requieren permiso para participar en transacciones. Además, la plataforma tiene una criptomoneda nativa para facilitar las transacciones junto con los contratos inteligentes.]
+                td #[b Al parecer, Hyperledger es bastante popular dentro del ecosistema de la #[i blockchain] empresarial. La comunidad cuenta con más de 260 socios de alto perfil que incluyen IBM, SAP y muchos más. Hyperledger es administrado por la fundación Linux que creó el ecosistema en diciembre de 2015. La plataforma es de código abierto y admite una arquitectura modular. Los nodos de validación y los modos de no validación. Los nodos de validación validan las transacciones, mantienen el registro y ejecutan el consenso que es el protocolo de consenso BFT.]
+                td #[b Este ecosistema es bastante genérico y sirve para una amplia gama de propósitos. Se basa en el consenso de PoW para validar las transacciones. Además, está claro que Ethereum es ideal para aplicaciones B2C, ya que los usuarios no requieren permiso para participar en transacciones. Además, la plataforma tiene una criptomoneda nativa para facilitar las transacciones junto con los contratos inteligentes].
           table
             caption.mt-3 Nota. Tomado de Hyperledger vs Ethereum: ¿Cuáles son las principales diferencias? 101blockchains.com.
             tbody(style="background-color: #F6F6F6")
@@ -615,8 +615,9 @@
             p Sin duda, el uso de criptomonedas y su integración al modelo económico y de servicios es muy favorable, pero para el caso de Colombia, a la fecha, aún no se contempla una normatividad clara sobre el uso y reglamentación de criptomonedas; esto no quiere decir que no se hayan realizado iniciativas para su adopción y es aquí donde se cuenta con algunas iniciativas importantes que vale la pena resaltar, como puede verse en el siguiente recurso educativo:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ioUNKNbQ3oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
+       
 </template>
 
 <script>

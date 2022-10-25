@@ -18,7 +18,8 @@
             p.mb-0 <b>El <em>blockchain</em> es una tecnología que permite llevar un registro seguro, descentralizado, sincronizado y distribuido de las operaciones digitales, sin necesidad de la intermediación de terceros. Se da la bienvenida al estudio del componente formativo “Fundamentos de <em>blockchain</em>”. Para comenzar, se invita a explorar el recurso que se presenta a continuación</b>:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/unam9aDV7_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>
