@@ -63,7 +63,7 @@
             figure.d-flex.justify-content-end
               img(src='@/assets/curso/tema2/img6.svg' style="width: 50px")
     .tarjeta.bgr_2.p-md-4
-      SlyderA(tipo="b")
+      SlyderA(tipo="b").color_slyder-a_botones
         .row.p-4.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             h4 Arte digital

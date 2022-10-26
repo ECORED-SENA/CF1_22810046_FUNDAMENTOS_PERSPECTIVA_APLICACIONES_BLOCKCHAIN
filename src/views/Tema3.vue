@@ -98,14 +98,14 @@
               tr
                 th Cualquiera puede participar.
                 th &check;
-                th &cross;
-                th &cross;
+                th X
+                th X
                 th N/A
               tr
                 th Los participantes actúan, en general, como nodos.
                 th &check;
-                th &cross;
-                th &cross;
+                th X
+                th X
                 th N/A
               tr
                 th Transparencia.
@@ -115,27 +115,27 @@
                 th N/A
               tr
                 th Hay un único administrador.
-                th &cross;
-                th &cross;
+                th X
+                th X
                 th &check;
                 th N/A
               tr
                 th Hay más de un administrador.
                 th &check;
-                th &cross;
-                th &cross;
+                th X
+                th X
                 th N/A
               tr
                 th No hay administradores.
                 th &check;
-                th &cross;
-                th &cross;
+                th X
+                th X
                 th N/A
               tr
                 th Ningún participante tiene más derechos que los demás.
                 th &check;
-                th &cross;
-                th &cross;
+                th X
+                th X
                 th N/A
               tr
                 th Se pueden implementar #[i Smart Contracts].
@@ -146,19 +146,19 @@
               tr
                 th Existe recompensa por minado de bloques.
                 th &tilde;
-                th &cross;
-                th &cross;
+                th X
+                th X
                 th N/A
               tr
                 th Soluciona problema de falta de confianza.
                 th &check;
-                th &cross;
+                th X
                 th &tilde;
                 th N/A
               tr
                 th Seguridad basada en protocolos de consenso.
                 th &check;
-                th &cross;
+                th X
                 th &tilde;
                 th N/A
               tr
@@ -185,7 +185,7 @@
           .col-md-6.col-lg.mb-4
             .row
               .col-auto.bg-c12.p-3
-                p.text-center.mb-0.text-white #[b &cross;]
+                p.text-center.mb-0.text-white X
               .col-auto.bg-c12b
                 .row.align-items-center.h-100
                   .col-12
@@ -325,20 +325,20 @@
           .col-lg-7
             .row.mb-4
               .col-auto.py-2.px-3.bg-c2
-                p.mb-0 #[b.text-white Transacción]
+                h4.mb-0.text-white Transacción
             p.mb-5 El proceso de minado de un nuevo bloque inicia cuando un usuario desea enviar una cierta cantidad de criptomonedas a otra persona. Entonces, envía dicha transacción con los datos desde su wallet, a la espera de que la red la realice y confirme. Allí permanecen hasta que sea minado un bloque donde puedan incluirse y validarse.
             .row.mb-4
               .col-auto.py-2.px-3.bg-c2
-                p.mb-0 #[b.text-white Compilación]
+                h4.mb-0.text-white Compilación
             p.mb-5 Estas transacciones pendientes en la red, son recopiladas y agrupadas en un bloque de transacciones por los nodos mineros. Es muy probable que varios mineros recojan las mismas transacciones y todas estarán sin confirmar hasta que no se mine el bloque.
             .row.mb-4
               .col-auto.py-2.px-3.bg-c2
-                p.mb-0 #[b.text-white Formación]
+                h4.mb-0text-white Formación
             p Cada minero seleccionará las transacciones que desea incluir y construirá su propio bloque. Si existen transacciones ya validadas e incluidas en el bloque anterior serán eliminadas de este. Este nuevo bloque se conoce como candidato, ya que aún no es válido porque no cuenta con una prueba de trabajo válida.
         p.mb-5 En la formación de este nuevo bloque, se debe incluir un encabezado que contenga el hash del bloque anterior, la raíz de Merkle y los datos para la competencia minera. Es decir, la marca de tiempo, el objetivo del algoritmo de PoW para dicho bloque (los <em>bits</em>), la versión del <em>software</em> y el <em>nonce</em>.
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            p.mb-0 #[b.text-white Prueba de trabajo]
+            h4.mb-0.text-white Prueba de trabajo
         p.mb-4 Una vez que cada minero haya conformado su propio bloque de transacciones, deberá encontrar una firma válida para dicho bloque. Es decir, realizar una prueba de trabajo. Cada minero debe realizar un proceso de cálculo matemático que es único para cada bloque que formaron. Por lo que, aunque el procedimiento sea el mismo, el resultado será totalmente diferente para cada uno. Este complejo cálculo implica mucho poder computacional, y por ende, un gran gasto de energía eléctrica. Que también dependerá de la dificultad del sistema para el momento del minado.
     .row.align-items-center.mb-4
       .col-lg-10.mb-4.mb-lg-0
@@ -355,7 +355,7 @@
       .col-lg-9.order-1.order-lg-2
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            p.mb-0 #[b.text-white Transmisión]
+            h4.mb-0.text-white Transmisión
         p Cuando un nodo minero logra encontrar un hash de salida válido para un bloque, transmite dicho bloque junto con la firma a los demás nodos de la red para que estos puedan validarlo.
         p En este momento, siempre y cuando no hayan emitido los 21 millones de bitcoins, el minero recibe la recompensa establecida por el minado, poniendo bitcoins nuevos en circulación. Esto se registra en su propio nodo, el resto de nodos de la red lo hará en el siguiente paso.
         p Además, independientemente de que se hayan emitido todos los bitcoins o no, el minero también recibe todas las comisiones de minado que los usuarios hayan puesto en las transacciones que componen este bloque.
@@ -363,12 +363,12 @@
       .col-lg-8.mb-4.mb-lg-0
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            p.mb-0 #[b.text-white Verificación]
+            h4.mb-0.text-white Verificación
         p Los demás nodos de la red se encargan de validar y verificar que el bloque y el hash cumplen con las condiciones del sistema, verificando su legitimidad y si realmente contiene la cantidad de ceros establecida.
         p.mb-5 Aquí también se confirma la prueba de trabajo, es decir, el poder computacional que se gastó para encontrar la solución, y se anota que el minero que descubrió el bloque efectivamente puede hacer uso de los bitcoins recién recibidos.
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            p.mb-0 #[b.text-white Confirmación]
+            h4.mb-0.text-white Confirmación
         p Una vez añadido el nuevo bloque a la <em>blockchain</em>, todos los demás que sean añadidos sobre este contarán como una confirmación. En este punto, se puede llegar a pensar que como cada minero inició el proceso con su propio bloque, pueden continuar con el minado. Pero no es así. Una vez que se genere un bloque, todos los nodos mineros deben comenzar el proceso formando un nuevo bloque de transacciones. No pueden continuar minando el bloque anterior debido a que cada bloque debe añadir el hash de salida del bloque que le precede.
       .col-lg-4
         figure

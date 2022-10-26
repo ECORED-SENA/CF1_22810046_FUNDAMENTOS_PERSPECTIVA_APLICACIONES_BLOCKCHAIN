@@ -23,7 +23,7 @@
       .cajon.color-primario.p-4
         p.mb-0 Para el caso de Colombia, aún no hay reglas claras para trabajar con estas nuevas tecnologías, pero ya se han venido adelantando iniciativas para regular y controlar este tipo de mercado, aunque conociendo la naturaleza del <em>blockchain</em> este no surgió para ser controlado ni administrado.
     separador
-    #t_2_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 	Definición y origen de las criptomonedas
     .row.align-items-center.mb-4
       .col-lg
@@ -64,7 +64,7 @@
           .col
             p.mb-0 #[b El comportamiento de este tipo de monedas está ligado al volumen de capitalización, es decir que ante un mayor volumen de capitalización menor será su volatilidad o variación, en caso contrario con menos volumen se observará una mayor volatilidad.]
         p.mb-4 Las criptomonedas buscan enlazar su precio a monedas fuertes como el dólar o monedas <em>fiat</em>, brindando así mayor confianza en los inversores, quienes las pueden utilizar para atesorar liquidez.
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4.mb-3
           p.mb-0 Entre las ventajas que han promovido el uso de <em>StableCoin</em> es su facilidad de transferir entre diferentes <em>Exchanges</em>, velocidad de la transferencia y un valor reducido de comisión.
       .col-lg-4
         figure
@@ -115,7 +115,7 @@
               figcaption Nota. Tomado de Top Stablecoin Tokens by Market Capitalization | CoinMarketCap.
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
-        p.mb-0 #[b.text-white AltCoin]
+        h4.mb-0.text-white AltCoin
     .row.mb-4
       .col-12
         .dual-txt-deco1
@@ -126,7 +126,7 @@
           img(src='@/assets/curso/tema2/img20.svg' style="width: 350px").m-auto
       .col-lg-8
         SlyderF.mb-4(columnas="col-9 col-md-6 col-lg-6 col-xl-4")
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.shadow
             .row
               .col-12
                 p.txt-c2.mb-0 01
@@ -135,7 +135,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
                 p.text-center Ethereum $ETH
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.shadow
             .row
               .col-12
                 p.txt-c2.mb-0 02
@@ -144,7 +144,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
                 p.text-center LIteCoin $LTC
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.shadow
             .row
               .col-12
                 p.txt-c2.mb-0 03
@@ -153,7 +153,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
                 p.text-center DogeCoin $DOGE
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.shadow
             .row
               .col-12
                 p.txt-c2.mb-0 04
@@ -162,7 +162,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
                 p.text-center Ripple $XRP
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.shadow
             .row
               .col-12
                 p.txt-c2.mb-0 05
@@ -171,7 +171,7 @@
                     figure
                       img(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
                 p.text-center VetChain $VET
-          .tarjeta.color-primario.p-4
+          .tarjeta.color-primario.p-4.shadow
             .row
               .col-12
                 p.txt-c2.mb-0 06
@@ -189,7 +189,7 @@
         h4.text-center.mb-5 La siguiente tabla 1 muestra las principales diferencias entre las Altcoins y las StableCoins.
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 1]. Principales diferencias entre AltCoins y StableCoins
-        .tabla-a.color-acento-botones.mb-5 
+        .tabla-a.color-acento-botones.mb-5
           table
             caption Nota. Tomado de Stablecoins vs. Altcoins, similitudes y diferencias. eurst.blog.
             thead
@@ -211,13 +211,13 @@
                 td El precio del valor de las monedas estables está determinado por la destrucción y creación de monedas estables.
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
-        p.mb-0 #[b.text-white Token]
+        h4.mb-0.text-white Token
     .row.align-items-center.mb-5
       .col-lg-9.mb-4.mb-lg-0
         p Dentro de este universo, se encuentran también los Token, los cuales son representaciones de alguna criptomoneda, por lo general Stablecoin, y sobre las cuales se les agrega alguna funcionalidad en algún ecosistema.
         p.mb-5 Entre las funcionalidades más comunes se encuentran:
         figure
-          img(src='@/assets/curso/tema2/img22.svg' style="width: 550px").m-auto
+          img(src='@/assets/curso/tema2/img22.png' style="width: 550px").m-auto
       .col-lg-3
         figure
           img(src='@/assets/curso/tema2/img21.svg' style="width: 350px").m-auto
@@ -251,7 +251,7 @@
       .col-12.p-5
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            p.mb-0 #[b.text-white Shitcoins]
+            h4.mb-0.text-white Shitcoins
         .row.align-items-center.mb-5
           .col-lg-4.mb-4.mb-lg-0
             figure
@@ -262,7 +262,7 @@
             .cajon.color-primario.p-4.mb-4
               p.mb-0 Algunas características y recomendaciones para tener en cuenta y determinar si una criptomoneda se puede considerar una shitcoin, son:
             SlyderF.mb-4(columnas="col-9 col-md-6 col-lg-6 col-xl-4")
-              .tarjeta.color-primario.p-4.bg-c4
+              .tarjeta.color-primario.p-4.bg-c4.shadow
                 .row
                   .col-12
                     p.txt-c2.mb-0 01
@@ -271,7 +271,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img26.svg' alt='AvatarTop')
                     p.text-center Poca confiabilidad del equipo de trabajo.
-              .tarjeta.color-primario.p-4.bg-c4
+              .tarjeta.color-primario.p-4.bg-c4.shadow
                 .row
                   .col-12
                     p.txt-c2.mb-0 02
@@ -280,7 +280,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img27.svg' alt='AvatarTop')
                     p.text-center Presentación del proyecto.
-              .tarjeta.color-primario.p-4.bg-c4
+              .tarjeta.color-primario.p-4.bg-c4.shadow
                 .row
                   .col-12
                     p.txt-c2.mb-0 03
@@ -289,7 +289,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
                     p.text-center Whitepaper o documento del proyecto demasiado ambicioso o irreal.
-              .tarjeta.color-primario.p-4.bg-c4
+              .tarjeta.color-primario.p-4.bg-c4.shadow
                 .row
                   .col-12
                     p.txt-c2.mb-0 04
@@ -298,7 +298,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
                     p.text-center Falta de capital de respaldo.
-              .tarjeta.color-primario.p-4.bg-c4
+              .tarjeta.color-primario.p-4.bg-c4.shadow
                 .row
                   .col-12
                     p.txt-c2.mb-0 05
@@ -358,7 +358,7 @@
             p Existen muchas monedas virtuales más allá del famoso Bitcoin, incluso, cabe precisar que hoy en día el número de monedas digitales se sitúa en torno a 10.000 en todo el mundo. A continuación, se va a conocer algunas de las monedas virtuales más importantes de la actualidad.
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
-        p.mb-0 #[b.text-white Bitcoin]
+        h4.mb-0.text-white Bitcoin
     .row.align-items-center.mb-4
       .col-lg-9.mb-4.mb-lg-0
         .dual-txt-deco1.mb-4
@@ -429,7 +429,7 @@
             p.mb-0 Como se dijo anteriormente, su adopción, madurez y interrelación los ecosistemas de las demás criptomonedas, la convierten en una de las más estables y valoradas, su importancia se deriva de la inclusión en sus portafolios financieros y su comercio se puede realizar en la mayoría de exchange existentes como binance, localbitcoin, kucoin, entre otros.
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
-        p.mb-0 #[b.text-white Ethereum]
+        h4.mb-0.text-white Ethereum
     .row.align-items-center.mb-4
       .col-lg-9.mb-4.mb-lg-0
         .dual-txt-deco1.mb-4
@@ -500,7 +500,7 @@
               img(src='@/assets/curso/tema2/img12.png' style="width: 550px").m-auto
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            p.mb-0 #[b.text-white #[i Hyperledger]]
+            h4.mb-0.text-white #[i Hyperledger]
         .row.align-items-center
           .col-lg-9.mb-4.mb-lg-0
             p.mb-4 <em>Hyperledger</em> es una tecnología de <em>blockchain</em> de código abierto impulsado por Linux <em>Foundation</em> y su enfoque se centra en llevar el <em>blockchain</em> al mundo empresarial e industrial.
@@ -551,7 +551,7 @@
     .row.justify-content-center
       .col-lg-9
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 2]. fHyperledger vs Ethereum: ¿Cuáles son las principales diferencias?
+          p.mb-0 #[b Tabla 2]. Hyperledger vs Ethereum: ¿Cuáles son las principales diferencias?
         .tabla-a.color-acento-botones.mb-5 
           table
             thead

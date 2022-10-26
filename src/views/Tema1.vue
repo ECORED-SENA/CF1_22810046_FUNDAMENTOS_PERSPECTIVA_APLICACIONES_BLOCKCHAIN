@@ -74,13 +74,13 @@
           figure.d-flex.justify-content-center
             img.img450(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
     separador
-    #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Cadena de bloques
     p.mb-5 Una cadena de bloques es un sistema de mantenimiento de registro donde múltiples fuentes validan una entrada antes que se la agregue a la cadena de datos, tal como se puede observar a continuación.
     .tarjeta.bgr_2.p-md-4.mb-5(data-aos="zoom-out")
-      SlyderA(tipo="b")
+      SlyderA(tipo="b").color_slyder-a_botones
         .row.p-5.bgr_3.justify-content-center
-          .col-12.col-md-8.col-lg-4
+          .col-12.col-md-8.col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img8.svg', alt='Texto que describa la imagen')
           .col-1
@@ -88,16 +88,16 @@
             div
               p.mb-0 El <em>blockchain</em> es una estructura de datos que almacena información en bloques a los cuales puede agregarse información denominada metainformación. Además cuenta con su propio <em>hash</em> y el <em>hash</em> del bloque inmediatamente anterior, la cual acepta una estrecha relación con otros bloques de una red permitiendo mantener una relación y línea temporal, la información se almacena haciendo uso de técnicas y algoritmos criptográficos garantizando así su confiabilidad. 
         .row.p-5.bgr_4.justify-content-center
-          .col-12.col-md-8.col-lg-6
+          .col-12.col-md-8.col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/img9.svg', alt='Texto que describa la imagen').mb-3
+              img(src='@/assets/curso/tema1/img9.svg', alt='Texto que describa la imagen').mb-4
               p <b>Adaptado de <i>Blockchain</i>: ¿Qué hay considerar al implementar una cadena de bloques? (ticportal.es)</b> 
           .col-lg-1
-          .col-12.col-lg-5.mb-3.mb-lg-0.d-flex.align-items-center
+          .col-12.col-lg-5.mb-2.mb-lg-0.d-flex.align-items-center
             div
               p.mb-0 Esta información solo puede ser modificada por bloques de orden posterior; cada bloque de información guarda la metainformación del bloque inmediatamente anterior, tal como se representa en la siguiente figura; en caso de que la información contenida en un bloque anterior sea modificada el <em>hash</em> cambia automáticamente lo que conlleva a que el siguiente bloque ya no sería válido comprometiendo la información contenida.
         .row.p-5.bgr_5.justify-content-center
-          .col-12.col-md-8.col-lg-4
+          .col-12.col-md-8.col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
           .col-1
@@ -105,7 +105,7 @@
             div
               p.mb-0  Ahora bien, el <em>hash</em> por sí solo no sería suficiente para garantizar la información contenida ya que las máquinas actuales pueden calcular <em>hash</em> de manera rápida y regenerar la cadena completa para que esta sea válida, por esto el <em>blockchain</em> incorpora el protocolo Proof Of Work (prueba de trabajo) el cual evita que se generen y recalculen los <em>hashes</em> de manera inmediata.
         .row.p-5.bgr_6.justify-content-center
-          .col-12.col-md-8.col-lg-3
+          .col-12.col-md-8.col-lg-3.mb-5.mb-lg-0
             figure
               img.img-t(src='@/assets/curso/tema1/img11.svg', alt='Texto que describa la imagen').mx-auto
           .col-1
@@ -114,7 +114,7 @@
               p.mb-0 Sumado al anterior que <em>blockchain</em> utiliza redes descentralizadas p2p que permiten generar bloques para validar los <em>hashes</em> creados y bloqueando cualquiera que haya sido modificado, dificultando cualquier operación que afecte la información contenida.
               p El ha sido pensado y está siendo utilizada para almacenar información de manera creciente a través del tiempo.
     separador
-    #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Origen de la tecnología 
     .row.align-items-center.mb-5
       .col-lg-auto.mb-5
@@ -128,31 +128,33 @@
               img(src='@/assets/curso/tema1/img13.svg')(data-aos="fade-right")
           .col
             p(data-aos="fade-left").mb-0 <b>Uno de los problemas que llevaron al surgimiento de esta tecnología, estuvo relacionada con la necesidad de ofrecer un medio que facilitara el comercio electrónico y garantizara el éxito de las transacciones reduciendo los riesgos de pérdida de bienes o servicios sin necesidad de manipular dinero físico, manteniendo la titularidad de estos durante la transacción</b>.
-    .row.mb-5.align-items-center.justify-content-center
-      .col-lg.mb-4.mb-lg-0
-        p.mb-4 Para realizar una transacción con bancos tradicionales, estos certifican que se cuenta con el dinero y se encargan de procesar los movimientos correspondientes; por esta razón se buscó también que la solución permitiera que el usuario fuese el que tuviera control sobre la transacción sin ser controlado ni limitado.
-        .cajon.color-primario.p-4
-          p.mb-0 Es desde los años 90 donde empiezan a surgir propuestas descentralizadas para dar solución a estas necesidades, y se puede realizar una vista rápida en la siguiente figura 1 de los principales hechos que marcaron el origen del <em>blockchain</em> como se conoce hasta el momento.
-      .col-lg-auto
-        figure
-          img(src='@/assets/curso/tema1/img14.svg' style="width: 450px").m-auto
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right").mb-4
-      h5 Figura 1.
-      span Origen del <em>blockchain</em>      
-    .row.justify-content-center
-      .col-lg-10
-      LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
-    .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #F4F7FE" data-aos="fade")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema1/img19.png")
-        .col.ps-lg-5
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p En principio el <em>blockchain</em> surgió para autenticar documentos digitales, pero no fue sino hasta el 2008 cuando fue usada por Satoshi Nakamoto cuando la usó para generar el Bitcoin.
+    .bg2
+      .row.mb-5.align-items-center.justify-content-center
+        .col-lg.mb-4.mb-lg-0
+          p.mb-4 Para realizar una transacción con bancos tradicionales, estos certifican que se cuenta con el dinero y se encargan de procesar los movimientos correspondientes; por esta razón se buscó también que la solución permitiera que el usuario fuese el que tuviera control sobre la transacción sin ser controlado ni limitado.
+          .cajon.color-primario.p-4
+            p.mb-0 Es desde los años 90 donde empiezan a surgir propuestas descentralizadas para dar solución a estas necesidades, y se puede realizar una vista rápida en la siguiente figura 1 de los principales hechos que marcaron el origen del <em>blockchain</em> como se conoce hasta el momento.
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema1/img14.svg' style="width: 450px").m-auto
+      .row.justify-content-center
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right").mb-4
+          h5 Figura 1.
+          span Origen del <em>blockchain</em>      
+      .row.justify-content-center
+        .col-lg-10
+        LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+      .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #F4F7FE" data-aos="fade")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/tema1/img19.png")
+          .col.ps-lg-5
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p En principio el <em>blockchain</em> surgió para autenticar documentos digitales, pero no fue sino hasta el 2008 cuando fue usada por Satoshi Nakamoto cuando la usó para generar el Bitcoin.
     separador
-    #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h3 1.3 Ciclo de vida del <em>blockchain</em>
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.3 Ciclo de vida del <em>blockchain</em>
     .row.mb-5.align-items-center.justify-content-center
       .col-lg-auto.mb-4.mb-lg-0
         figure
@@ -161,30 +163,32 @@
         p.mb-4 La adopción del <em>blockchain</em> en diferentes sectores ha ido incrementando a medida que se implementan las diferentes redes, servicios y aplicaciones, y este se ha involucrado en sectores tan importantes como son el de salud, financiero, logística, gobierno entre otros, pero aún no se puede hablar de que esta tecnología se encuentra en un 100% operativa.
         .cajon.color-primario.p-4
           p.mb-0 De acuerdo con Gartner, en su artículo denominado “Las 4 fases del espectro <em>blockchain</em> de Gartner”, la cadena de bloques real está conformada por 5 elementos como son: distribución, cifrado, inmutabilidad, <em>tokenización</em> y descentralización; las cuales permiten el aprovechamiento completo de esta tecnología como se puede apreciar en la siguiente figura 2.
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 2]. Elementos que componen una red <em>blockchain</em>
-      .row.justify-content-center.mb-5
+    .bg4
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-lg-6
+          .titulo-sexto.color-acento-contenido.mb-5
+            p.mb-0 #[b Figura 2]. Elementos que componen una red <em>blockchain</em>
+        
+        .row.justify-content-center.mb-5
+          .col-lg-6
+            figure
+              img(src='@/assets/curso/tema1/img26.svg').mb-3
+            figcaption  Nota. Adaptado de Las 4 fases del espectro de <em>Blockchain de Gartner</em>.
+      .row.align-items-start.mb-5
+        .col-auto
           figure
-            img(src='@/assets/curso/tema1/img26.svg')
-          figcaption  Nota. Adaptado de Las 4 fases del espectro de <em>Blockchain de Gartner</em>.
-    .row.align-items-start.mb-5
-      .col-auto
-        figure
-          img(src='@/assets/curso/tema1/img27.svg')(data-aos="fade-right")
-      .col
-        p.mb-0 Así mismo, la figura 3 presenta un espectro de ciclo de vida del <em>blockchain</em> en el cual indica cómo se han venido desarrollando cada uno de los componentes anteriormente nombrados, y dónde se refleja dicha tecnología. Aún no se desarrolla completamente y es posible que hasta después del año 2030 se podrá contar con un ecosistema completo.   
-    .row.align-items-center.justify-content-center(data-aos="fade-right")
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 3]. El espectro de <em>blockchain</em>
-      .row.justify-content-center.mb-5
+            img(src='@/assets/curso/tema1/img27.svg')(data-aos="fade-right")
+        .col
+          p.mb-0 Así mismo, la figura 3 presenta un espectro de ciclo de vida del <em>blockchain</em> en el cual indica cómo se han venido desarrollando cada uno de los componentes anteriormente nombrados, y dónde se refleja dicha tecnología. Aún no se desarrolla completamente y es posible que hasta después del año 2030 se podrá contar con un ecosistema completo.   
+      .row.align-items-center.justify-content-center(data-aos="fade-right")
         .col-lg-10
-          figure
-            img(src='@/assets/curso/tema1/img28.svg')
-          figcaption  Nota. Adaptado de Las 4 fases del espectro de <em>Blockchain</em> de Gartner.
+          .titulo-sexto.color-acento-contenido.mb-5
+            p.mb-0 #[b Figura 3]. El espectro de <em>blockchain</em>
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            figure
+              img.mb-3(src='@/assets/curso/tema1/img28.svg')
+            figcaption  Nota. Adaptado de Las 4 fases del espectro de <em>Blockchain</em> de Gartner.
 </template>
 
 <script>
