@@ -125,7 +125,7 @@
         figure
           img(src='@/assets/curso/tema2/img20.svg' style="width: 350px").m-auto
       .col-lg-8
-        SlyderF.mb-4(columnas="col-9 col-md-6 col-lg-6 col-xl-4")
+        SlyderF.mb-4(columnas="col-12 col-md-6 col-lg-6 col-xl-4")
           .tarjeta.color-primario.p-4.shadow
             .row
               .col-12
@@ -261,7 +261,7 @@
               p Este tipo de criptomoneda, muy común dentro de los mercados, lleva su nombre algo “despectivo”, debido a que no representa confiabilidad, no son atractivos o no aportan ninguna utilidad, por consiguiente, su tendencia es desaparecer del mercado por no presentar una relevancia en estos.
             .cajon.color-primario.p-4.mb-4
               p.mb-0 Algunas características y recomendaciones para tener en cuenta y determinar si una criptomoneda se puede considerar una shitcoin, son:
-            SlyderF.mb-4(columnas="col-9 col-md-6 col-lg-6 col-xl-4")
+            SlyderF.mb-4(columnas="col-12 col-md-6 col-lg-6 col-xl-4")
               .tarjeta.color-primario.p-4.bg-c4.shadow
                 .row
                   .col-12
@@ -607,7 +607,7 @@
       h2 2.3	Regulación legal
     .bloque-texto-a.color-secundario.p-4.mb-5 
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-3.mb-4.mb-lg-0
+        .col-lg-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/img48.svg').m-auto
         .col-lg-9

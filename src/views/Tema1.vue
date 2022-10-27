@@ -141,9 +141,9 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right").mb-4
           h5 Figura 1.
           span Origen del <em>blockchain</em>      
-      .row.justify-content-center
-        .col-lg-10
-        LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
+    .row.justify-content-center
+      .col-lg-10
+        LineaTiempoB.color-secundario.mb-5.bg-c17.p-4(:datos="datosLineaTiempoB")
       .tarjeta.color-acento-contenido.py-4.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem; background-color: #F4F7FE" data-aos="fade")
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1

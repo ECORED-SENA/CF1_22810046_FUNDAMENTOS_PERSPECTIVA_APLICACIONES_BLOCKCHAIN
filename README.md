@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **CF1 22810046 Fundamentos, Perspectiva y Aplicaciones del Blockchain**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_22810046_FUNDAMENTOS_PERSPECTIVA_APLICACIONES_BLOCKCHAIN/](https://ecored-sena.github.io/CF1_22810046_FUNDAMENTOS_PERSPECTIVA_APLICACIONES_BLOCKCHAIN/)
 
 #
 

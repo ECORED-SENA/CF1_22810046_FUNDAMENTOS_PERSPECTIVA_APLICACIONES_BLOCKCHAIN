@@ -73,7 +73,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '2.	Criptoeconomía y Criptodivisas',
+        titulo: 'Criptoeconomía y Criptodivisas',
         desarrolloContenidos: true,
         subMenu: [
           {
