@@ -74,7 +74,7 @@
                     img(src='@/assets/curso/tema3/img3.svg' style="width: 350px").m-auto
     h4.mb-5 La siguiente tabla 3 presenta las principales diferencias entre los tipos de redes <em>blockchain</em>:
     .row.justify-content-center
-      .col-lg-12
+      .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Tabla 3]. Principales diferencias entre los tipos de redes <em>blockchain</em>
         .tabla-a.color-acento-contenido.mb-4
@@ -94,7 +94,7 @@
                 th
                   p.text-center.text-white.mb-0 <em>Blockchain as a service</em>
                   p.text-center.text-white.mb-0 <em>IBM, Microsoft, Amazon</em>
-            tbody
+            tbody.bgr_1
               tr
                 th Cualquiera puede participar.
                 th &check;
@@ -222,7 +222,7 @@
               .col-12
                 figure.d-flex.justify-content-end
                   img(src='@/assets/curso/tema2/img6.svg' style="width: 50px")
-        TabsC.color-acento-contenido.mb-5
+        TabsC.color-acento-contenido.bgr_7.mb-5
           .py-3.py-md-4(titulo="Rastreo")
             .row.align-items-center.justify-content-center
               .col-lg-5.mb-4.mb-lg-0
@@ -333,7 +333,7 @@
             p.mb-5 Estas transacciones pendientes en la red, son recopiladas y agrupadas en un bloque de transacciones por los nodos mineros. Es muy probable que varios mineros recojan las mismas transacciones y todas estarán sin confirmar hasta que no se mine el bloque.
             .row.mb-4
               .col-auto.py-2.px-3.bg-c2
-                h4.mb-0text-white Formación
+                h4.mb-0.text-white Formación
             p Cada minero seleccionará las transacciones que desea incluir y construirá su propio bloque. Si existen transacciones ya validadas e incluidas en el bloque anterior serán eliminadas de este. Este nuevo bloque se conoce como candidato, ya que aún no es válido porque no cuenta con una prueba de trabajo válida.
         p.mb-5 En la formación de este nuevo bloque, se debe incluir un encabezado que contenga el hash del bloque anterior, la raíz de Merkle y los datos para la competencia minera. Es decir, la marca de tiempo, el objetivo del algoritmo de PoW para dicho bloque (los <em>bits</em>), la versión del <em>software</em> y el <em>nonce</em>.
         .row.mb-4

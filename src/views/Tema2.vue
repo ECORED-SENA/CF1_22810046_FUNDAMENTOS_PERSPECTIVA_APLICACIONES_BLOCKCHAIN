@@ -50,7 +50,7 @@
               img(src='@/assets/curso/tema2/img6.svg' style="width: 50px")
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
-        p.mb-0 #[b.text-white StableCoin]
+        h4.mb-0 #[b.text-white StableCoin]
     .row.mb-4
       .col-12
         .dual-txt-deco1
@@ -126,7 +126,7 @@
           img(src='@/assets/curso/tema2/img20.svg' style="width: 350px").m-auto
       .col-lg-8
         SlyderF.mb-4(columnas="col-12 col-md-6 col-lg-6 col-xl-4")
-          .tarjeta.color-primario.p-4.shadow
+          .tarjeta.color-primario.p-4.shadow1
             .row
               .col-12
                 p.txt-c2.mb-0 01
@@ -134,8 +134,8 @@
                   .col-8
                     figure
                       img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')
-                p.text-center Ethereum $ETH
-          .tarjeta.color-primario.p-4.shadow
+                p.mb-0.text-center Ethereum $ETH
+          .tarjeta.color-primario.p-4.shadow1
             .row
               .col-12
                 p.txt-c2.mb-0 02
@@ -143,8 +143,8 @@
                   .col-8
                     figure
                       img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
-                p.text-center LIteCoin $LTC
-          .tarjeta.color-primario.p-4.shadow
+                p.mb-0.text-center LIteCoin $LTC
+          .tarjeta.color-primario.p-4.shadow1
             .row
               .col-12
                 p.txt-c2.mb-0 03
@@ -152,8 +152,8 @@
                   .col-8
                     figure
                       img(src='@/assets/curso/tema2/img16.svg' alt='AvatarTop')
-                p.text-center DogeCoin $DOGE
-          .tarjeta.color-primario.p-4.shadow
+                p.mb-0.text-center DogeCoin $DOGE
+          .tarjeta.color-primario.p-4.shadow1
             .row
               .col-12
                 p.txt-c2.mb-0 04
@@ -161,8 +161,8 @@
                   .col-8
                     figure
                       img(src='@/assets/curso/tema2/img17.svg' alt='AvatarTop')
-                p.text-center Ripple $XRP
-          .tarjeta.color-primario.p-4.shadow
+                p.mb-0.text-center Ripple $XRP
+          .tarjeta.color-primario.p-4.shadow1
             .row
               .col-12
                 p.txt-c2.mb-0 05
@@ -170,8 +170,8 @@
                   .col-8
                     figure
                       img(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
-                p.text-center VetChain $VET
-          .tarjeta.color-primario.p-4.shadow
+                p.mb-0.text-center VetChain $VET
+          .tarjeta.color-primario.p-4.shadow1
             .row
               .col-12
                 p.txt-c2.mb-0 06
@@ -179,7 +179,7 @@
                   .col-8
                     figure
                       img(src='@/assets/curso/tema2/img19.svg' alt='AvatarTop')
-                p.text-center Cardano $ADA
+                p.mb-0.text-center Cardano $ADA
         p.mb-4 De ellas se encontrará un listado bastante amplio, porque cualquier persona puede crear su propia moneda, la cual se puede capitalizar o también se pueden minar.
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Estas monedas permiten diversificar y ampliar los ecosistemas de criptomonedas, así como la posibilidad de integrarse a diferentes soluciones de <em>blockchain</em> para mejorar una experiencia de usuario inversores.
@@ -262,7 +262,7 @@
             .cajon.color-primario.p-4.mb-4
               p.mb-0 Algunas características y recomendaciones para tener en cuenta y determinar si una criptomoneda se puede considerar una shitcoin, son:
             SlyderF.mb-4(columnas="col-12 col-md-6 col-lg-6 col-xl-4")
-              .tarjeta.color-primario.p-4.bg-c4.shadow
+              .tarjeta.color-primario.p-4.bg-c4.shadow1
                 .row
                   .col-12
                     p.txt-c2.mb-0 01
@@ -271,7 +271,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img26.svg' alt='AvatarTop')
                     p.text-center Poca confiabilidad del equipo de trabajo.
-              .tarjeta.color-primario.p-4.bg-c4.shadow
+              .tarjeta.color-primario.p-4.bg-c4.shadow1
                 .row
                   .col-12
                     p.txt-c2.mb-0 02
@@ -280,7 +280,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img27.svg' alt='AvatarTop')
                     p.text-center Presentación del proyecto.
-              .tarjeta.color-primario.p-4.bg-c4.shadow
+              .tarjeta.color-primario.p-4.bg-c4.shadow1
                 .row
                   .col-12
                     p.txt-c2.mb-0 03
@@ -289,7 +289,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
                     p.text-center Whitepaper o documento del proyecto demasiado ambicioso o irreal.
-              .tarjeta.color-primario.p-4.bg-c4.shadow
+              .tarjeta.color-primario.p-4.bg-c4.shadow1
                 .row
                   .col-12
                     p.txt-c2.mb-0 04
@@ -298,7 +298,7 @@
                         figure
                           img(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
                     p.text-center Falta de capital de respaldo.
-              .tarjeta.color-primario.p-4.bg-c4.shadow
+              .tarjeta.color-primario.p-4.bg-c4.shadow1
                 .row
                   .col-12
                     p.txt-c2.mb-0 05
