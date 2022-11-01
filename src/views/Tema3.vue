@@ -35,13 +35,13 @@
                       | Son consideradas resistentes a la censura, ya que no son sujetas a restricciones para operar con las demás redes.
                     li 
                       i.fas.fa-pen-square
-                      | Provee beneficios para la programación de sus cadenas de bloques públicas, lo que motiva y premia mediante <em>recom</em>, esquema de premios o incentivos (puede ser a través de <em>tokens</em> o criptomonedas) para recompensar a los participantes en la red que resulten honestos tras las validaciones de bloques.
+                      p Provee beneficios para la programación de sus cadenas de bloques públicas, lo que motiva y premia mediante <em>recom</em>, esquema de premios o incentivos (puede ser a través de <em>tokens</em> o criptomonedas) para recompensar a los participantes en la red que resulten honestos tras las validaciones de bloques.
                 .col-lg-4
                   figure
                     img(src='@/assets/curso/tema3/img1.svg' style="width: 350px").m-auto
           .row(titulo="<em>Blockchains</em> Privados")
             .col-12
-              p.mb-5 Conocidas como blockchains autorizadas, presentan una gran diferencia frente a las públicas, las cuales radican en:
+              p.mb-5 Conocidas como <em>blockchains</em> autorizadas, presentan una gran diferencia frente a las públicas, las cuales radican en:
               .row.align-items-center
                 .col-lg-8
                   ul.lista-ul--color.lista-ul--separador
@@ -53,7 +53,7 @@
                       | Las transacciones y operaciones dentro de la red son privadas y solo pueden observarse por miembros autorizados dentro de su ecosistema
                     li 
                       i.fas.fa-pen-square
-                      | Puede existir, así como también puede no existir un <em>token</em> asociado con la cadena.
+                      p Puede existir, así como también puede no existir un <em>token</em> asociado con la cadena.
                     li 
                       i.fas.fa-pen-square
                       | Son generalmente centralizadas a diferencia de las públicas que con descentralizadas, y estas son controladas por un referente central que administra las autorizaciones.
@@ -343,7 +343,7 @@
     .row.align-items-center.mb-4
       .col-lg-10.mb-4.mb-lg-0
         p La solución que deben encontrar los mineros es conocida como <em>hash</em>. Esta función es muy difícil de encontrar, pero una vez hallada, es fácil de verificar por los otros nodos. Para que así puedan comprobar que el <em>hash</em> de salida cumpla con las condiciones establecidas del sistema.
-        p Para encontrar un <em>hash</em> de salida válido los mineros realizan los cálculos matemáticos de forma repetitiva una y otra vez a través de un <em>nonce</em>, que es un número aleatorio que utilizan y cambian constantemente hasta encontrar una firma o <em>hash</em> de salida que sea válido según la condición. No hay forma de predecir que <em>nonce</em> resolverá el problema, por lo que deben emplear tantos como sea necesario, en este caso se está hablando de miles de millones de valores.
+        p Para encontrar un <em>hash</em> de salida válido, los mineros realizan los cálculos matemáticos de forma repetitiva una y otra vez a través de un <em>nonce</em>, que es un número aleatorio que utilizan y cambian constantemente hasta encontrar una firma o <em>hash</em> de salida que sea válido según la condición. No hay forma de predecir que <em>nonce</em> resolverá el problema, por lo que deben emplear tantos como sea necesario, en este caso se está hablando de miles de millones de valores.
         p En caso de la red Bitcoin, el sistema condiciona que el <em>hash</em> de salida debe contener un determinado número de ceros al inicio del <em>hash</em>.
       .col-lg-2
         figure

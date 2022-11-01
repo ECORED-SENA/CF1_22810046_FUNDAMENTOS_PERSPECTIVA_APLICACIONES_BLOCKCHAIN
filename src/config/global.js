@@ -198,7 +198,7 @@ export default {
     {
       tema: 'CriptoEconomía y Criptodivisas',
       referencia:
-        'Domingo, C. (2018). Todo lo que querías saber sobre <em>Bitcoin</em>, criptomonedas y <em>Blockchain</em>, y no te atrvías a preguntar.',
+        'Domingo, C. (2018). Todo lo que querías saber sobre <em>Bitcoin</em>, criptomonedas y <em>Blockchain</em>, y no te atrevías a preguntar.',
       tipo: 'PDF',
       link:
         'https://pladlibroscl0.cdnstatics.com/libros_contenido_extra/38/37925_Bitcoin_Criptomonedas_Y_Blockchain.pdf',

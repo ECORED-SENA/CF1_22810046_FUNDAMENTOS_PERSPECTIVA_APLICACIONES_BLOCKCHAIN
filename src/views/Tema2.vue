@@ -289,7 +289,7 @@
                       .col-8
                         figure
                           img(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
-                    p.text-center <em>Whitepaper</em> o documento del proyecto demasiado ambicioso o irreal.
+                    p.text-center #[i Whitepaper] o documento del proyecto demasiado ambicioso o irreal.
               .tarjeta.color-primario.p-4.bg-c4.shadow1
                 .row
                   .col-12
@@ -408,7 +408,7 @@
             figure
               img(src='@/assets/curso/tema2/img3.svg')
           .col
-            p.mb-0 El Bitcoin funciona a partir de su cadena de bloques y por su naturaleza descentralizada, permite que este sea gestionado por cada uno de los poseedores, contando con una replica similar de toda su red.
+            p.mb-0 El Bitcoin funciona a partir de su cadena de bloques y por su naturaleza descentralizada, permite que este sea gestionado por cada uno de los poseedores, contando con una réplica similar de toda su red.
     .dual-txt-deco1.mb-5
       p En cuestión al valor del Bitcoin, la siguiente figura 7 presenta la gráfica de valor desde su aparición en los mercados a mediados del año 2013, año en el cual se observa que su precio de referencia fue de 105 USD, y a lo largo del tiempo se ha ido incrementando, pero no fue hasta el año 2020, en donde su precio tuvo una variación significativa, ligada a su adopción masiva, presentando picos históricos máximos cercanos a los 66 mil USD; hoy en día, en el primer trimestre del año 2022 presenta un valor cercano 38 mil USD, debido a correcciones del mercado, situaciones, legales, económicas y políticas que han desestabilizado el mercado financiero, y al cual el bitcoin no ha sido ajeno.
     .cajon.color-acento-contenido.p-4.mb-5
