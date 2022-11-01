@@ -51,7 +51,7 @@
           LineaTiempoD.color-acento-contenido.bg3
             .row(numero="8" titulo="Contrato inteligente")
               .col-md-12.mb-4.mb-md-0
-                p Son programas que trabajan sobre redes de <em>blockchain</em>, los cuales implementan reglas sobre de operación sobre activos digitales los cuales deben ser cumplidos por los interesados y firmantes de un contrato inteligente.
+                p Son programas que trabajan sobre redes de <em>blockchain</em>, los cuales implementan reglas de operación sobre activos digitales los cuales deben ser cumplidos por los interesados y firmantes de un contrato inteligente.
             .row(numero="9" titulo="<em>Wallet</em>").justify-content-center
               .col-md-12.mb-4.mb-md-0
                 p.mb-3 Son programas que se utilizan para almacenar las claves para operar sobre una red de <em>blockchain</em>, con las cuales se puede demostrar la propiedad que existe sobre ciertos <em>tokens</em>, criptomonedas, NFT o identidades digitales.         
@@ -69,7 +69,7 @@
                 p Que son centralizados, muy comunes, fáciles de operar y con una alta liquidez, pero la custodia de los activos está en manos de terceros.
             .row(numero="13" titulo="<em>Exchanges Descentralizados o DEX</em>")
               .col-md-12.mb-4.mb-md-0
-                p Que son descentralizados, con un alto nivel de seguridad y privacidad, también manejan altos índices de liquidez y a diferencia de los <em>exchanges</em> centralizados la custodia de los activos está en manos de cada propietario. 
+                p Que son descentralizados, con un alto nivel de seguridad y privacidad, también manejan altos índices de liquidez y a diferencia de los <em>exchanges</em> centralizados, la custodia de los activos está en manos de cada propietario. 
         .col-12.col-md-6.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
           figure.d-flex.justify-content-center
             img.img450(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
@@ -95,7 +95,7 @@
           .col-lg-1
           .col-12.col-lg-5.mb-2.mb-lg-0.d-flex.align-items-center
             div
-              p.mb-0 Esta información solo puede ser modificada por bloques de orden posterior; cada bloque de información guarda la metainformación del bloque inmediatamente anterior, tal como se representa en la siguiente figura; en caso de que la información contenida en un bloque anterior sea modificada el <em>hash</em> cambia automáticamente lo que conlleva a que el siguiente bloque ya no sería válido comprometiendo la información contenida.
+              p.mb-0 Esta información solo puede ser modificada por bloques de orden posterior; cada bloque de información guarda la metainformación del bloque inmediatamente anterior, tal como se representa en la siguiente figura; en caso de que la información contenida en un bloque anterior sea modificada, el <em>hash</em> cambia automáticamente, lo que conlleva a que el siguiente bloque ya no sería válido comprometiendo la información contenida.
         .row.p-5.bgr_5.justify-content-center
           .col-12.col-md-8.col-lg-4.mb-4.mb-lg-0
             figure
@@ -111,8 +111,8 @@
           .col-1
           .col-12.col-lg-7.mb-3.mb-lg-0.d-flex.align-items-center
             div
-              p.mb-0 Sumado al anterior que <em>blockchain</em> utiliza redes descentralizadas p2p que permiten generar bloques para validar los <em>hashes</em> creados y bloqueando cualquiera que haya sido modificado, dificultando cualquier operación que afecte la información contenida.
-              p El ha sido pensado y está siendo utilizada para almacenar información de manera creciente a través del tiempo.
+              p.mb-0 <em>Blockchain</em> utiliza redes descentralizadas p2p que permiten generar bloques para validar los <em>hashes</em> creados y bloqueando cualquiera que haya sido modificado, dificultando cualquier operación que afecte la información contenida.
+              p El <em>blockchain</em> ha sido pensado y está siendo utilizada para almacenar información de manera creciente a través del tiempo.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Origen de la tecnología 
@@ -160,7 +160,7 @@
         figure
           img(src='@/assets/curso/tema1/img20.svg' style="width: 450px").m-auto
       .col-lg
-        p.mb-4 La adopción del <em>blockchain</em> en diferentes sectores ha ido incrementando a medida que se implementan las diferentes redes, servicios y aplicaciones, y este se ha involucrado en sectores tan importantes como son el de salud, financiero, logística, gobierno entre otros, pero aún no se puede hablar de que esta tecnología se encuentra en un 100% operativa.
+        p.mb-4 La adopción del <em>blockchain</em> en diferentes sectores ha ido incrementando a medida que se implementan las diferentes redes, servicios y aplicaciones, y este se ha involucrado en sectores tan importantes como son el de salud, financiero, logística, gobierno, entre otros, pero aún no se puede hablar de que esta tecnología se encuentra en un 100 % operativa.
         .cajon.color-primario.p-4
           p.mb-0 De acuerdo con Gartner, en su artículo denominado “Las 4 fases del espectro <em>blockchain</em> de Gartner”, la cadena de bloques real está conformada por 5 elementos como son: distribución, cifrado, inmutabilidad, <em>tokenización</em> y descentralización; las cuales permiten el aprovechamiento completo de esta tecnología como se puede apreciar en la siguiente figura 2.
     .bg4

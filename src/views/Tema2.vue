@@ -50,11 +50,11 @@
               img(src='@/assets/curso/tema2/img6.svg' style="width: 50px")
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
-        h4.mb-0 #[b.text-white StableCoin]
+        h4.mb-0 #[b.text-white #[i StableCoin]]
     .row.mb-4
       .col-12
         .dual-txt-deco1
-          p También conocidas como monedas estables por su comportamiento uniforme dentro de los mercados, están atadas y respaldadas por un dinero o por materias primas como los metales, como oro o en una moneda fuerte como el dólar estadounidense USD; la moneda Bitcoin $BTC es considerada la primera StableCoin.
+          p También conocidas como monedas estables por su comportamiento uniforme dentro de los mercados, están atadas y respaldadas por un dinero o por materias primas como los metales, como oro o en una moneda fuerte como el dólar estadounidense USD; la moneda Bitcoin $BTC es considerada la primera <em>StableCoin</em>.
     .row.align-items-center.mb-5
       .col-lg-8.mb-lg-4.mb-lg-0
         .row.align-items-start.mb-4
@@ -69,7 +69,7 @@
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img7.svg' style="width: 450px").m-auto
-    h4.mb-4 Entre las StableCoin más representativas se encuentran:
+    h4.mb-4 Entre las <em>StableCoin</em> más representativas se encuentran:
     .row.justify-content-center.mb-5
       .col-8.col-md-4.col-lg-2
         figure
@@ -103,23 +103,24 @@
                 img(src='@/assets/curso/tema2/img13.svg').m-auto
             .col-lg-9
               .bloque-texto-a__texto.p-4
-                p Se puede encontrar un extenso listado de este tipo de monedas en el sitio CoinMarketCap, cuyo enlace se encuentra en el material complementario. En este lugar se encuentran detalles importantes como el margen de capitalización, variación en los últimas 24 horas, la cantidad circulante de las monedas actualmente, entre otra información.
+                p Se puede encontrar un extenso listado de este tipo de monedas en el sitio CoinMarketCap, cuyo enlace se encuentra en el material complementario. En este lugar se encuentran detalles importantes como el margen de capitalización, variación en las últimas 24 horas, la cantidad circulante de las monedas actualmente, entre otra información.
                   |
                   a(href="https://coinmarketcap.com/" target="_blank") #[.txt-c1 La siguiente figura presenta cómo se ve ese sitio.]
         .row.justify-content-center.mb-5
+
           .col-lg-8
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 4]. Listado de #[i StableCoin] en sitio #[i web] CoinMarketCap
             figure
               img(src='@/assets/curso/tema2/img4.png')
-              figcaption Nota. Tomado de Top Stablecoin Tokens by Market Capitalization | CoinMarketCap.
+              figcaption Nota. Tomado de Top <em>StableCoin Tokens</em> by Market Capitalization | CoinMarketCap.
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
-        h4.mb-0.text-white AltCoin
+        h4.mb-0.text-white <em>Altcoin</em>
     .row.mb-4
       .col-12
         .dual-txt-deco1
-          p También conocidas como Alternative Coin o monedas alternativas, se considera cualquier criptomoneda que no está basada en Bitcoin, entre las que se encuentran:
+          p También conocidas como <em>Alternative Coin</em> o monedas alternativas, se considera cualquier criptomoneda que no está basada en Bitcoin, entre las que se encuentran:
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
         figure
@@ -143,7 +144,7 @@
                   .col-8
                     figure
                       img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')
-                p.mb-0.text-center LIteCoin $LTC
+                p.mb-0.text-center LiteCoin $LTC
           .tarjeta.color-primario.p-4.shadow1
             .row
               .col-12
@@ -170,7 +171,7 @@
                   .col-8
                     figure
                       img(src='@/assets/curso/tema2/img18.svg' alt='AvatarTop')
-                p.mb-0.text-center VetChain $VET
+                p.mb-0.text-center VeChain $VET
           .tarjeta.color-primario.p-4.shadow1
             .row
               .col-12
@@ -182,39 +183,39 @@
                 p.mb-0.text-center Cardano $ADA
         p.mb-4 De ellas se encontrará un listado bastante amplio, porque cualquier persona puede crear su propia moneda, la cual se puede capitalizar o también se pueden minar.
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 Estas monedas permiten diversificar y ampliar los ecosistemas de criptomonedas, así como la posibilidad de integrarse a diferentes soluciones de <em>blockchain</em> para mejorar una experiencia de usuario inversores.
+          p.mb-0 Estas monedas permiten diversificar y ampliar los ecosistemas de criptomonedas, así como la posibilidad de integrarse a diferentes soluciones de <em>blockchain</em> para mejorar una experiencia de usuarios inversores.
         p A pesar de no estar basadas en bitcoin, su comportamiento y utilidad puede ser muy similar.
     .row.justify-content-center.mb-5
       .col-lg-9
-        h4.text-center.mb-5 La siguiente tabla 1 muestra las principales diferencias entre las Altcoins y las StableCoins.
+        h4.text-center.mb-5 La siguiente tabla 1 muestra las principales diferencias entre las <em>Altcoins</em> y las <em>StableCoins</em>.
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 1]. Principales diferencias entre AltCoins y StableCoins
+          p.mb-0 #[b Tabla 1]. Principales diferencias entre <em>Altcoins</em> y<em>StableCoins</em>
         .tabla-a.color-acento-botones.mb-5
           table
-            caption Nota. Tomado de Stablecoins vs. Altcoins, similitudes y diferencias. eurst.blog.
+            caption Nota. Tomado de <em>StableCoins vs. <em>Altcoins</em></em>, similitudes y diferencias. eurst.blog.
             thead
               tr
-                th Altcoins
-                th Stablecoins
+                th <em>Altcoins</em>
+                th <em>StableCoins</em>
             tbody(style="background-color: #F6F6F6")
               tr
-                td La palabra Altcoin se refiere a cualquier criptomoneda que no sea Bitcoin (BTC).
-                td Es importante entender que las Stablecoins son Altcoins.
+                td La palabra <em>Altcoin</em> se refiere a cualquier criptomoneda que no sea Bitcoin (BTC).
+                td Es importante entender que las <em>StableCoins</em> son <em>Altcoins</em>.
               tr
-                td Hay fluctuación de precios en Altcoins.
+                td Hay fluctuación de precios en <em>Altcoins</em>.
                 td Menos volátil.
               tr
-                td Otras Altcoins no pueden ser destruidas o creadas, a excepción de las Stablecoins.
+                td Otras <em>Altcoins</em> no pueden ser destruidas o creadas, a excepción de las <em>StableCoins</em>.
                 td Hay un activo estable que lo respalda, como el oro y los dólares estadounidenses.
               tr
                 td 
                 td El precio del valor de las monedas estables está determinado por la destrucción y creación de monedas estables.
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
-        h4.mb-0.text-white Token
+        h4.mb-0.text-white <em>Token</em>
     .row.align-items-center.mb-5
       .col-lg-9.mb-4.mb-lg-0
-        p Dentro de este universo, se encuentran también los Token, los cuales son representaciones de alguna criptomoneda, por lo general Stablecoin, y sobre las cuales se les agrega alguna funcionalidad en algún ecosistema.
+        p Dentro de este universo, se encuentran también los <em>Token</em>, los cuales son representaciones de alguna criptomoneda, por lo general <em>Stablecoin</em>, y sobre las cuales se les agrega alguna funcionalidad en algún ecosistema.
         p.mb-5 Entre las funcionalidades más comunes se encuentran:
         figure
           img(src='@/assets/curso/tema2/img22.png' style="width: 550px").m-auto
@@ -251,7 +252,7 @@
       .col-12.p-5
         .row.mb-4
           .col-auto.py-2.px-3.bg-c2
-            h4.mb-0.text-white Shitcoins
+            h4.mb-0.text-white <em>Shitcoins</em>
         .row.align-items-center.mb-5
           .col-lg-4.mb-4.mb-lg-0
             figure
@@ -260,7 +261,7 @@
             .dual-txt-deco1
               p Este tipo de criptomoneda, muy común dentro de los mercados, lleva su nombre algo “despectivo”, debido a que no representa confiabilidad, no son atractivos o no aportan ninguna utilidad, por consiguiente, su tendencia es desaparecer del mercado por no presentar una relevancia en estos.
             .cajon.color-primario.p-4.mb-4
-              p.mb-0 Algunas características y recomendaciones para tener en cuenta y determinar si una criptomoneda se puede considerar una shitcoin, son:
+              p.mb-0 Algunas características y recomendaciones para tener en cuenta y determinar si una criptomoneda se puede considerar una <em>shitcoin</em>, son:
             SlyderF.mb-4(columnas="col-12 col-md-6 col-lg-6 col-xl-4")
               .tarjeta.color-primario.p-4.bg-c4.shadow1
                 .row
@@ -288,7 +289,7 @@
                       .col-8
                         figure
                           img(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
-                    p.text-center Whitepaper o documento del proyecto demasiado ambicioso o irreal.
+                    p.text-center <em>Whitepaper</em> o documento del proyecto demasiado ambicioso o irreal.
               .tarjeta.color-primario.p-4.bg-c4.shadow1
                 .row
                   .col-12
@@ -329,7 +330,7 @@
             figure.mb-4
               img(src='@/assets/curso/tema2/img7.png' style="width: 150px").m-auto
             h4.text-center Litecoin (2011)
-            p.text-center.mb-0 Criptomoneda y proyecto de software de código abierto publicado bajo la licencia MIT inspirado y prácticamente idéntico en su aspecto técnico a Bitcoin.
+            p.text-center.mb-0 Criptomoneda y proyecto de <em>software</em> de código abierto publicado bajo la licencia MIT inspirado y prácticamente idéntico en su aspecto técnico a Bitcoin.
           .col-md-5.col-lg.bg-c6.p-4.shadow-sm
             figure.mb-4
               img(src='@/assets/curso/tema2/img8.png' style="width: 150px").m-auto
@@ -341,9 +342,9 @@
               img(src='@/assets/curso/tema2/img9.png' style="width: 150px").m-auto
             h4.text-center Ethereum (2015)
             p.text-center Es una criptomoneda cuya principal utilidad no es ser un medio de pago. Su objetivo no es ser «dinero».
-            p.text-center.mb-0 Ether sólo se acepta para las transacciones de aplicaciones digitales (Dapps) que se ejecutan en la red Ethereum.
+            p.text-center.mb-0 Ether solo se acepta para las transacciones de aplicaciones digitales (Dapps) que se ejecutan en la red Ethereum.
         .cajon.color-acento-contenido.p-4.mb-5
-          p.mb-0 Es así como se observa que el surgimiento y adopción de criptomonedas en diferentes escenarios como el financiero, gobierno, servicios y seguridad entre otros, continúa en crecimiento y que las necesidades actuales, situaciones políticas y económicas han impulsado la generación de alternativas viables para la salvaguarda de recursos económicos a un bajo costo y que cualquier persona puede realizar.
+          p.mb-0 Es así como se observa que el surgimiento y adopción de criptomonedas en diferentes escenarios como el financiero, gobierno, servicios y seguridad, entre otros, continúa en crecimiento y que las necesidades actuales, situaciones políticas y económicas han impulsado la generación de alternativas viables para la salvaguarda de recursos económicos a un bajo costo y que cualquier persona puede realizar.
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido
@@ -362,7 +363,7 @@
     .row.align-items-center.mb-4
       .col-lg-9.mb-4.mb-lg-0
         .dual-txt-deco1.mb-4
-          p El Bitcoin es una de las monedas virtuales mas representativas hoy en día, esta moneda surgió a mediados del año 2009, cuando Satoshi Nakamoto público un artículo donde describía las características de una moneda digital y compartió el código fuente con el que se podía realizar el proceso de “minado” para generar dicha moneda, y su procedimiento para llevar a cabo las validaciones, así como sus transacciones.
+          p El Bitcoin es una de las monedas virtuales más representativas hoy en día, esta moneda surgió a mediados del año 2009, cuando Satoshi Nakamoto público un artículo donde describía las características de una moneda digital y compartió el código fuente con el que se podía realizar el proceso de “minado” para generar dicha moneda, y su procedimiento para llevar a cabo las validaciones, así como sus transacciones.
         .row.align-items-start.mb-4
           .col-auto
             figure
@@ -373,7 +374,7 @@
         figure
           img(src='@/assets/curso/tema2/img33.svg' style="width: 220px").m-auto
     .cajon.color-primario.p-4.mb-4
-      p.mb-0 El Bitcoin se representa mediante su código $BTC y su logo de marca se puede observar en la siguiente figura 6, en donde se pueden identificar la gran cantidad de mecanismos de pago, pasarelas e incluso establecimientos de comercio. Este ícono lo podemos ver hoy en día gracias a su despliegue e integración, en diferentes escenarios en los cuales se permite el pago de productos y/o servicios con esta criptomoneda, con la facilidad de usar una wallet y escanear un código QR.
+      p.mb-0 El Bitcoin se representa mediante su código $BTC y su logo de marca se puede observar en la siguiente figura 6, en donde se pueden identificar la gran cantidad de mecanismos de pago, pasarelas e incluso establecimientos de comercio. Este ícono lo podemos ver hoy en día gracias a su despliegue e integración, en diferentes escenarios en los cuales se permite el pago de productos y/o servicios con esta criptomoneda, con la facilidad de usar una <em>wallet</em> y escanear un código QR.
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
         figure
@@ -426,7 +427,7 @@
             figure
               img(src='@/assets/curso/tema2/img39.svg' style="width. 70px")
           .col-md
-            p.mb-0 Como se dijo anteriormente, su adopción, madurez y interrelación los ecosistemas de las demás criptomonedas, la convierten en una de las más estables y valoradas, su importancia se deriva de la inclusión en sus portafolios financieros y su comercio se puede realizar en la mayoría de exchange existentes como binance, localbitcoin, kucoin, entre otros.
+            p.mb-0 Como se dijo anteriormente, su adopción, madurez y interrelación los ecosistemas de las demás criptomonedas, la convierten en una de las más estables y valoradas, su importancia se deriva de la inclusión en sus portafolios financieros y su comercio se puede realizar en la mayoría de <em>exchange</em> existentes como binance, localbitcoin, kucoin, entre otros.
     .row.mb-4
       .col-auto.py-2.px-3.bg-c2
         h4.mb-0.text-white Ethereum
@@ -439,7 +440,7 @@
             figure
               img(src='@/assets/curso/tema2/img3.svg')
           .col
-            p.mb-0 #[b El Ethereum está basado en el token Ether ($ETH) el cual puede ser utilizado en sus transacciones basados en esta tecnología. Como todas las criptomonedas, cuenta con un libro contable digital de transacciones abierto pero difícil de modificar, generado a partir de la minería.]
+            p.mb-0 #[b El Ethereum está basado en el <em>token</em> Ether ($ETH) el cual puede ser utilizado en sus transacciones basados en esta tecnología. Como todas las criptomonedas, cuenta con un libro contable digital de transacciones abierto pero difícil de modificar, generado a partir de la minería.]
       .col-lg-3
         figure
           img(src='@/assets/curso/tema2/img40.svg' style="width: 250px").m-auto
@@ -466,11 +467,11 @@
       .col-lg-8
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Bajo esta plataforma también se debe hablar de las DApps o Aplicaciones Descentralizadas construidas sobre el <em>blockchain</em> de Ethereum y que hacen uso de los contratos inteligentes para el desarrollo de una función o actividad.
-        p Las aplicaciones convencionales fueron creadas para ejecutarse sobre dispositivos como teléfonos, tabletas o computadores, pero presentan una debilidad inherente y es por el hecho que al ser centralizadas dependen del administrador de su plataforma, así que, si en algún momento el administrador cambia los términos del servicio, condiciones e incluso costo, el usuario deberá aceptarlas para continuar con su beneficio. Por su parte, las DApps no dependen de un ente central si no de la comunidad que la mantiene. Gráficamente se puede ver esa diferencia así:
+        p Las aplicaciones convencionales fueron creadas para ejecutarse sobre dispositivos como teléfonos, tabletas o computadores, pero presentan una debilidad inherente y es por el hecho que al ser centralizadas dependen del administrador de su plataforma, así que, si en algún momento el administrador cambia los términos del servicio, condiciones e incluso costo, el usuario deberá aceptarlas para continuar con su beneficio. Por su parte, las DApps no dependen de un ente central sino de la comunidad que la mantiene. Gráficamente se puede ver esa diferencia así:
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 7]. Diferencia entre las APP convencional y las DApps
+          p.mb-0 #[b Figura 8]. Diferencia entre las APP convencional y las DApps
         figure
           img(src='@/assets/curso/tema2/img46.svg')
           figcaption.mt-2 Nota. Adaptado de ¿Qué es una Dapp y para qué sirve? Bitnovo Blog.
@@ -491,7 +492,7 @@
                   p Recompensas por el trabajo de validación (minado).
               .row(numero="4" titulo="Protocolo")
                 .col-12
-                  p La comunidad de aplicaciones debe acordar un algoritmo criptográfico para demostrar su valor. Por ejemplo, Bitcoin usa Proof of Work (PoW) y Ethereum actualmente usa PoW aunque en un futuro tienen planeado un PoW/Proof of Stake híbrido (PoS)5.
+                  p La comunidad de aplicaciones debe acordar un algoritmo criptográfico para demostrar su valor. Por ejemplo, Bitcoin usa <em>Proof of Work</em> (PoW) y Ethereum actualmente usa PoW aunque en un futuro tienen planeado un PoW/<em>Proof of Stake</em> híbrido (PoS)5.
               .row(numero="5" titulo="No existe un punto central de fallo")
                 .col-12
                   p Las ÐApps permiten que los datos almacenados en ellas se descentralicen en todos sus nodos, que son independientes entre sí. En caso de falla de un nodo, los otros nodos no se verán afectados. Dado que las DApp se distribuyen y no dependen de un solo servidor, no existe un punto central de fallo.
@@ -509,7 +510,7 @@
                 figure
                   img(src='@/assets/curso/tema2/img3.svg')
               .col
-                p.mb-0 <b>Este proyecto fue presentado por Linux <em>Foundation</em> en el año 2015 el cual tuvo un despliegue rápido ya que contó con el apoyo de organizaciones como Accenture, ANZ Bank, Cisco, CLS, <em>Credits</em>, Deutsche <em>Börse</em>, Digital <em></em>Asset Holdings, DTCC, Fujitsu <em>Limited</em>, IC3, IBM, Intel, JP Morgan, London Stock Exchange <em>Group</em>, Mitsubishi UFJ <em>Financial Group</em> (MUFG), R3, <em>State</em> Street, SWIFT, VMware y Wells Fargo entre otras.</b> 
+                p.mb-0 <b>Este proyecto fue presentado por Linux <em>Foundation</em> en el año 2015, el cual tuvo un despliegue rápido, ya que contó con el apoyo de organizaciones como Accenture, ANZ Bank, Cisco, CLS, <em>Credits</em>, Deutsche <em>Börse</em>, Digital <em></em>Asset Holdings, DTCC, Fujitsu <em>Limited</em>, IC3, IBM, Intel, JP Morgan, London Stock Exchange <em>Group</em>, Mitsubishi UFJ <em>Financial Group</em> (MUFG), R3, <em>State</em> Street, SWIFT, VMware y Wells Fargo, entre otras.</b> 
           .col-lg-3
             figure
               img(src='@/assets/curso/tema2/img47.svg' style="width: 200px").m-auto
@@ -530,7 +531,7 @@
               p Distribución de <em>blockchain</em> binaria enfocada en la simplicidad, velocidad y ergonomía de desarrolladores. Ejecuta códigos de contratos inteligentes en la máquina virtual de Ethereum (EVM) y WASM y utiliza el consenso BFT a través del algoritmo Tendermint.
           .row(numero="3" titulo="Hyperledger-Fabric")
             .col-12
-              p Implementación plug and play de tecnología <em>blockchain</em> para el desarrollo de aplicaciones o soluciones con una arquitectura modular. Ofrece un enfoque único de consenso que permite el rendimiento a gran escala y, al mismo tiempo, preserva la privacidad.
+              p Implementación <em>plug and play</em> de tecnología <em>blockchain</em> para el desarrollo de aplicaciones o soluciones con una arquitectura modular. Ofrece un enfoque único de consenso que permite el rendimiento a gran escala y, al mismo tiempo, preserva la privacidad.
           .row(numero="4" titulo="Hyperledger-Indy")
             .col-12
               p Conjunto de herramientas, bibliotecas y componentes reutilizables para proporcionar identidades digitales arraigadas en cadenas de bloques u otros libros de contabilidad, distribuidos para que sean interoperables entre dominios administrativos, aplicaciones. Permite la interoperabilidad con cadenas de bloques o se puede usar de forma independiente para impulsar la descentralización de la identidad.
@@ -547,17 +548,17 @@
             figure
               img(src='@/assets/curso/tema2/img39.svg' style="width. 70px")
           .col-md
-            p.mb-0 De acuerdo con el portal 101 <em>BlockchainS</em>, Hyperledger está ganando camino dentro de la carrera de las soluciones para <em>blockchain</em> en el orden empresarial sobre soluciones como las basadas en Ethereum. Estos realizan una comparación de sus capacidades, las cuales se pueden observar en la siguiente tabla 2, resaltando las características de: usabilidad, consenso, tokens, transacciones, contratos inteligentes y partners.
+            p.mb-0 De acuerdo con el portal 101 <em>Blockchains</em>, Hyperledger está ganando camino dentro de la carrera de las soluciones para <em>blockchain</em> en el orden empresarial sobre soluciones como las basadas en Ethereum. Estos realizan una comparación de sus capacidades, las cuales se pueden observar en la siguiente tabla 2, resaltando las características de: usabilidad, consenso, <em>tokens</em>, transacciones, contratos inteligentes y <em>partners</em>.
     .row.justify-content-center
       .col-lg-9
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Tabla 2]. Hyperledger vs Ethereum: ¿Cuáles son las principales diferencias?
+          p.mb-0 #[b Tabla 2]. Hyperledger vs. Ethereum: ¿Cuáles son las principales diferencias?
         .tabla-a.color-acento-botones.mb-5 
           table
             thead
               tr
-                th 101#[i Blockchains]
-                th HYPERLEDGER VS ETHEREUM
+                th 101 #[i Blockchains]
+                th HYPERLEDGER VS. ETHEREUM
             tbody(style="background-color: #F6F6F6")
               tr
                 td(colspan="2") #[b La #[i blockchain] empresarial está ganando terreno en las principales industrias. El impulso se ve subrayado por el potencial de la tecnología para revolucionar las operaciones y hacerlas asequibles, rápidas, confiables y transparentes. Con este fin, Hyperledger y Ethereum se están abriendo camino al establecer marcos donde los desarrolladores pueden personalizar la tecnología #[i blockchain] para varios casos de uso.]
@@ -582,8 +583,8 @@
                 td.text-center #[b CONSENSO]
                 td #[b UtilizaPrueba de trabajo (PoW) como mecanismo de consenso.]
               tr
-                td #[b No tiene ninguna criptomoneda / token incorporado.]
-                td.text-center #[b TOKENS]
+                td #[b No tiene ninguna criptomoneda / #[i token] incorporado.]
+                td.text-center #[b #[i TOKENS]]
                 td #[b Viene con Ether (ETH)]
               tr
                 td #[b El registro no es público.]

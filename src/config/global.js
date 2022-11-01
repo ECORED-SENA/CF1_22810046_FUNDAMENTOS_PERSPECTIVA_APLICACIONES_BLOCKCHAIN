@@ -198,7 +198,7 @@ export default {
     {
       tema: 'CriptoEconomía y Criptodivisas',
       referencia:
-        'Domingo, C. (2018). Todo lo que quería saber sobre <em>Bitcoin</em>, criptomonedas y <em>Blockchain</em>, y no te atrvías a preguntar.',
+        'Domingo, C. (2018). Todo lo que querías saber sobre <em>Bitcoin</em>, criptomonedas y <em>Blockchain</em>, y no te atrvías a preguntar.',
       tipo: 'PDF',
       link:
         'https://pladlibroscl0.cdnstatics.com/libros_contenido_extra/38/37925_Bitcoin_Criptomonedas_Y_Blockchain.pdf',
@@ -220,7 +220,7 @@ export default {
     {
       termino: '<em>Rig</em>',
       significado:
-        'Sistema basado principalmente en tarjetas gráficas que trabajan para obtener el hash de un bloque y obtener así una recompensa.',
+        'Sistema basado principalmente en tarjetas gráficas que trabajan para obtener el <em>hash</em> de un bloque y obtener así una recompensa.',
     },
     {
       termino: '<em>Satoshi</em>',
@@ -273,11 +273,6 @@ export default {
       link:
         'https://static0planetadelibroscommx.cdnstatics.com/libros_contenido_extra/35/34781_La_revolucion_blockchain.pdf ',
     },
-    {
-      referencia:
-        'Tudela, L (2019) Arquitectura <em>blockchain</em> para la securización de dispositivos IOT mediante <em>smart contracts</em>. ',
-      link: 'http://castor.det.uvigo.es:8080/xmlui/handle/123456789/345',
-    },
   ],
   creditos: {
     liderEquipo: [
@@ -309,7 +304,7 @@ export default {
       {
         nombre: 'Gloria Alexandra Orejarena Barrios',
         cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Gestión Industrial - Regional Distro Capital ',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital ',
       },
       {
         nombre: 'Ana Catalina Córdoba ',

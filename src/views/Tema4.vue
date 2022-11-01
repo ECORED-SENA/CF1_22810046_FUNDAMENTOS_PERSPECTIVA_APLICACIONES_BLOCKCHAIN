@@ -20,13 +20,13 @@
               .col
                 p.mb-0 En los últimos años se ha escuchado del término NFT, que quiere decir “Token no Fungible”, pero en ocasiones no se conoce su significado y el impacto que viene generando dentro de los ecosistemas digitales, y es que después de que se iniciaran las charlas sobre ambiente de realidad virtual como los del metaverso, se comenzó a revelar un universo en donde cualquier elemento que represente un objeto del mundo real podría ser llevado hasta allá, y representar algo de valor mediante un certificado digital único registrado en una cadena de bloques mediante un contrato inteligente.
             .cajon.color-acento-contenido.p-4
-              p.mb-0 #[b En este orden de ideas el término NFT hace referencia a un activo digital que no podrá consumirse ni sustituirse y este puede ser un gráfico, un audio, video, documento entre otros, a continuación, se conocerá un poco sobre esta tendencia tecnológica.]
+              p.mb-0 #[b En este orden de ideas el término NFT hace referencia a un activo digital que no podrá consumirse ni sustituirse y este puede ser un gráfico, un audio, video, documento, entre otros, a continuación, se conocerá un poco sobre esta tendencia tecnológica.]
         Separador
         #t_4_1
         .titulo-segundo.color-acento-contenido
           h2 4.1 Conceptos
         .dual-txt-deco2.mb-5
-          p Los tokens, sin duda, hacen parte de los nuevos términos de la economía digital; estos son “una unidad de valor que una organización crea para gobernar su modelo de negocio y dar más poder a sus usuarios para interactuar con sus productos, al tiempo que facilita la distribución y reparto de beneficios entre todos sus accionistas” (Mougayar, 2016).  A continuación, se  conocerán algunos conceptos importantes sobre NFT que permitirán comprender mejor esta tendencia tecnológica:
+          p Los <em>tokens</em>, sin duda, hacen parte de los nuevos términos de la economía digital; estos son “una unidad de valor que una organización crea para gobernar su modelo de negocio y dar más poder a sus usuarios para interactuar con sus productos, al tiempo que facilita la distribución y reparto de beneficios entre todos sus accionistas” (Mougayar, 2016).  A continuación, se  conocerán algunos conceptos importantes sobre NFT que permitirán comprender mejor esta tendencia tecnológica:
         .row.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             LineaTiempoD.color-acento-contenido.bg3
@@ -44,7 +44,7 @@
                   p En un NFT se les puede asignar una especie de certificado digital de autenticidad, una serie de metadatos que no se van a poder modificar. En estos metadatos se garantiza su autenticidad, se registra el valor de partida y todas las adquisiciones o transacciones que se hayan hecho y también a su autor.
               .row(numero="5" titulo="<em>Market</em>")
                 .col-12
-                  p Tienda digital para el intercambio de nft.
+                  p Tienda digital para el intercambio de NFT.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema4/img1.svg' style="width: 450px").m-auto
@@ -57,7 +57,7 @@
         figure
           img(src='@/assets/curso/tema4/img3.png' style="width: 350px").m-auto
       .col-lg-9.my-4.mb-ly-0.order-1.order-lg-2
-        p La adopción y uso de los NFT viene en continuo crecimiento y cobró fuerza con el anuncio del metaverso y la variedad de posibilidades para adentrarse en un mundo virtual en donde se tendrán necesidades, ofertas y espacios para compartir información digital, a continuación, se presentan algunos casos de estudio donde se involucran estos tokens.
+        p La adopción y uso de los NFT viene en continuo crecimiento y cobró fuerza con el anuncio del metaverso y la variedad de posibilidades para adentrarse en un mundo virtual en donde se tendrán necesidades, ofertas y espacios para compartir información digital, a continuación, se presentan algunos casos de estudio donde se involucran estos <em>tokens</em>.
         .row
           .col-12
             figure.d-flex.justify-content-end
@@ -91,7 +91,7 @@
               img(src='@/assets/curso/tema4/img7.png' style="width: 350px").m-auto
           .col-lg-8
             h4 Contratos inteligentes
-            p Esta adopción de los NFT no haría sido posible sin la participación de los contratos inteligentes, en los cuales se encuentran los detalles del contrato de tenencia de cada token, así como los alcances. El intercambio de nft se desarrolla a través de los <em>market’s</em> en los cuales se puede consultar los detalles y metainformación de cada artículo digital.
+            p Esta adopción de los NFT no habría sido posible sin la participación de los contratos inteligentes, en los cuales se encuentran los detalles del contrato de tenencia de cada <em>token</em>, así como los alcances. El intercambio de NFT se desarrolla a través de los <em>market’s</em> en los cuales se puede consultar los detalles y metainformación de cada artículo digital.
 
 </template>
 
