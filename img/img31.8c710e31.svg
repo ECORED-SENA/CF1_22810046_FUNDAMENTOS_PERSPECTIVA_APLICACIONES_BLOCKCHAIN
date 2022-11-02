@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1330" height="1228.001" viewBox="0 0 1330 1228.001">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b9d3ed"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_66676" data-name="Rectángulo 66676" width="1328" height="515" transform="translate(212 4877.125)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff4bc4"/>
+      <stop offset="0.661" stop-color="#375aeb"/>
+      <stop offset="1" stop-color="#2b5bed"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.004" x2="1" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_947784" data-name="Grupo 947784" transform="translate(-135 -6445.999)">
+    <rect id="placeholder" width="1329" height="1218" transform="translate(1465 7664) rotate(180)" fill="url(#linear-gradient)"/>
+    <g id="Enmascarar_grupo_58" data-name="Enmascarar grupo 58" transform="translate(-76 2271.875)" opacity="0.07" clip-path="url(#clip-path)">
+      <g id="Grupo_212901" data-name="Grupo 212901" transform="translate(-70.151 4876.606)">
+        <g id="Grupo_212900" data-name="Grupo 212900" transform="translate(0 0)">
+          <path id="Path_3" data-name="Path 3" d="M6.212,148.905c16.2-47.47,110.8-79.36,246.533-40.759S661.212,443.207,885.237,315.311,1212.687-52.278,1468.991,10.2s218.276,152.951,379.489,21.8c.913,415.953,0,442.1,0,442.1L16.909,440.126S-9.987,196.376,6.212,148.905Z" transform="translate(12.622 83.968)" opacity="0.8" fill="url(#linear-gradient-2)"/>
+          <path id="Path_3_Copy" data-name="Path 3 Copy" d="M68.9,278.163c135.73,38.6,357.435-360.327,741.87-30.111S1344.67-98.359,1613.648,12.4s125.606,211.715,286.819,80.566c.913,415.953,0,442.1,0,442.1L68.9,501.085S-66.835,239.562,68.9,278.163Z" transform="translate(-8.571 0)" opacity="0.8" fill="url(#linear-gradient-3)"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectángulo_69301" data-name="Rectángulo 69301" width="1330" height="258" transform="translate(135 7416)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>
