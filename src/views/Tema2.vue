@@ -616,9 +616,9 @@
             p Sin duda, el uso de criptomonedas y su integración al modelo económico y de servicios es muy favorable, pero para el caso de Colombia, a la fecha, aún no se contempla una normatividad clara sobre el uso y reglamentación de criptomonedas; esto no quiere decir que no se hayan realizado iniciativas para su adopción y es aquí donde se cuenta con algunas iniciativas importantes que vale la pena resaltar, como puede verse en el siguiente recurso educativo:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/ioUNKNbQ3oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uiWAosv9g9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-       
+        
 </template>
 
 <script>
